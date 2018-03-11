@@ -13,11 +13,9 @@ $container.isotope({
         var $optionSet = $this.parents('.option-set');
         $optionSet.find('.selected').removeClass('selected');
         $this.addClass('selected');
-    // make option object dynamically, i.e. { filter: '.my-filter-class' }
     var options = {},
     key = $optionSet.attr('data-option-key'),
-    value = $this.attr('scrapbook-filter');
-    // parse 'false' as false boolean
+    value = $this.attr('data-option-filter');
     value = value === 'false' ? false : value;
     options[ key ] = value;
     if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {

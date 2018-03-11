@@ -16,6 +16,7 @@ body {
     font-size: 10px;
     font-weight: 300;
     margin-bottom: 0px; 
+    overflow-x: hidden; 
 }
  
 a, aside a:after,.sort a:after, .entry {
@@ -38,7 +39,7 @@ a:hover {
 aside {
     top: 0;
     left: 0;
-    width: 200px;
+    width: 15%;
     height: 100%;
     position: fixed;
     background: #ffffff;
@@ -93,12 +94,16 @@ aside li {
     margin-top:3px;
 }
 
-.sort ul { margin-left:0px;padding-top:10px;border-top:1px solid #eee; }
+.sort ul {
+    padding-top:10px;
+    border-top:1px solid #eeeeee; }
+
 .sort li a.selected { color:#222;font-weight:400; } .sort li a.selected:after { margin-left:13px; }
 
 #archive { 
     background: #ffffff;
-    width: 60%; 
+    width: 50%; 
+    max-width: 100%;
     padding: 100px; 
     margin-top: 125px; 
     margin-left: 500px; 
@@ -106,8 +111,10 @@ aside li {
 }
 
 section {
-    margin: 60px;
+    margin: 50px;
     left: 250px;
+    max-width: 70%; 
+    overflow-x: hidden; 
 }
 
 .entry {
