@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>scrapbook 2018</title> <!--title-->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+ 
+<body>
+ 
+<aside>
+    <h1>scrapbook</h1>
+    
+     <ul>
+        <li><a href="archives/2016.html">2016</a></li>
+        <li><a href="archives/2017.html">2017</a></li>
+    </ul>
+        
+    
+    <div class="nav sort">
+
+    <ul id="filters" class="option-set clearfix" data-option-key="filter">
+
+    <!--these are your filters. an example:
+    <li><a href="#filter" data-option-filter=".FILTER">filter name</a></li>
+    -->
+    <li><a href="#" scrapbook-filter=".entry">all</a></li>
+    <li><a href="#" scrapbook-filter=".films">films</a></li>
+    <li><a href="#" scrapbook-filter=".shows">shows</a></li>
+    <li><a href="#" scrapbook-filter=".books">books</a></li>
+    <li><a href="#" scrapbook-filter=".music">music</a></li>
+
+    </ul>
+    </div>
+</aside>
+
+<section>
+<!--    start books
+        
+        for filters: where it says <div class="book">, you can add filters corresponding to the filters above. for example, for a favorite ya series, you would tag it <div class="book fave ya series"> and it would show up under all those filters. the "book" needs to be there for all of them. you can add new filters above by copying and pasting the example above, then adding the filter class to your book. for example, if i wanted to add a category for classics, i would add the filter like this:
+
+<li><a href="#filter" data-option-filter=".classic">classics</a></li>
+
+then tag the book like this: <div class="book classic"> for it to work.
+--> 
+
+<!----- START EXAMPLE BOOK ----->
+<div class="entry books">
+    <div class="entry-info">
+        <p class="entry-title">american panda</p>
+        <p class="entry-subtitle">gloria chao</p>
+    </div>
+    <div class="entry-desc">
+        i wish i read this when i was younger. 
+    </div>
+    <div class="afterthought">
+        <p><a href="#filter" data-option-filter=".books">books</a> | march 09</p>
+    </div>
+</div>
+    
+<div class="entry films">
+    <div class="entry-info">
+        <p class="entry-title">lady bird</p>
+        <p class="entry-subtitle">2017</p>
+    </div>
+    <div class="entry-desc">
+        "I guess I pay attention" 
+        <br />
+        "Don't you think they're the same thing? Love and attention?”
+        <br />
+        beautiful thought provoking movie about time and place and how people change with the way we t
+        beautiful thought provoking movie about time and place and how people change with the way we t
+        beautiful thought provoking movie about time and place and how people change with the way we t
+    </div>
+    <div class="afterthought">
+        <p><a href="#filter" data-option-filter=".films">films</a> | january 9</p>
+    </div>
+</div>
+
+    <div class="entry films">
+    <div class="entry-info">
+        <p class="entry-title">arrival</p>
+        <p class="entry-subtitle">2016</p>
+    </div>
+    <div class="entry-desc">
+        this is how we communicate, i guess
+    </div>
+    <div class="afterthought">
+        <p><a href="#filter" data-option-filter=".films">films</a> | march 11</p>
+    </div>
+</div>
+    
+<div class="entry films">
+    <div class="entry-info">
+        <p class="entry-title">lady bird</p>
+        <p class="entry-subtitle">2017</p>
+    </div>
+    <div class="entry-desc">
+        beautiful thought provoking movie about time and place and how people change with the way we t
+    </div>
+    <div class="afterthought">
+        <p><a href="#filter" data-option-filter=".films">films</a> | january 01</p>
+    </div>
+</div>
+    
+<div class="entry films">
+    <div class="entry-info">
+        <p class="entry-title">lady bird</p>
+        <p class="entry-subtitle">2017</p>
+    </div>
+    <div class="entry-desc">
+        beautiful thought provoking movie about time and place and how people change with the way we t
+    </div>
+    <div class="afterthought">
+        <p><a href="#filter" data-option-filter=".films">films</a> | january 9</p>
+    </div>
+</div>
+    
+</section>
+ 
+    <!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/masonry.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
