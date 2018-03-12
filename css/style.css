@@ -15,11 +15,11 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-size: 10px;
     font-weight: 300;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;  
     overflow-x: hidden; 
 }
  
-a, aside a:after,.sort a:after, .entry {
+a, aside a:after,.sort a:after {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -55,16 +55,16 @@ h1 {
     letter-spacing:.5px;
     display:block;
     margin-bottom:10px;
-    margin-top: 50px; 
+    margin-top: 50%; 
     font-style:italic;
     font-weight:400;
 }
 
 h3 {
-    font-size: 16px; 
+    font-size: 80px; 
     font-weight: normal;
     margin-top: 0px; 
-    margin-bottom: 50px; 
+    text-align: right; 
 }
 
 nav a {
@@ -94,24 +94,39 @@ aside li {
     margin-top:3px;
 }
 
-.sort ul {
-    padding-top:10px;
-    border-top:1px solid #eeeeee; }
+#nav-archives {
+    margin-top: 40px; 
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eeeeee;
+}
 
-.sort li a.selected { color:#222;font-weight:400; } .sort li a.selected:after { margin-left:13px; }
+.sort ul {
+    margin-left: 0px;
+    padding-top: 20px;
+}
+
+.sort li a.selected {
+    
+}
+
+aside li a.selected:after {
+    margin-right:15px;
+    color: #d86e95;
+}
 
 #archive { 
     background: #ffffff;
-    width: 50%; 
+    width: 45%; 
     max-width: 100%;
     padding: 100px; 
-    margin-top: 125px; 
+    margin-top: 150px; 
     margin-left: 500px; 
     margin-bottom: 0px; 
+    position: absolute;
 }
 
 section {
-    margin: 50px;
+    margin: 60px;
     left: 250px;
     max-width: 70%; 
     overflow-x: hidden; 
