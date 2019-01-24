@@ -1,0 +1,15 @@
+<div class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries"  >
+    <div class="entry-info">
+        <p class="entry-title"> {{ entry.title }} </p>
+        <p class="entry-subtitle">{{ entry.subtitle }} </p>
+    </div>
+    <div class="entry-desc">
+        <span class="quoted"> 
+            {{ entry.quoted }}
+        </span>
+        {{ entry.description }}
+    </div>
+    <div class="afterthought">
+        <p> <a href="#" data-option-filter=".{{ entry.media }}">{{ entry.media }} </a> | {{ entry.watchdate }} </p>
+    </div>
+</div>

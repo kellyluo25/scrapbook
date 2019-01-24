@@ -129,21 +129,13 @@ aside li a.selected:after {
 }
 
 section {
-    margin-top: 60px;
-    margin-left: 320px;
-    max-width: 70%;
-}
-/*
-
-section {
     margin: 60px;
     left: 250px;
     max-width: 70%; 
     overflow-x: hidden; 
 }
-*/
 
-.scrapbookentry {
+.entry {
     background: #ffffff;
     width: 200px; 
     padding: 15px;

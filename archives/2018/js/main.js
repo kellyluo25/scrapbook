@@ -1,11 +1,11 @@
 $(window).load(function () {
 $('section').masonry({
-itemSelector : ".scrapbookentry", },
+itemSelector : ".entry", },
 function() { $('section').masonry({ appendedContent: $(this) }); } ); });
 
 $(function(){ var $container = $('section');
 $container.isotope({
-    itemSelector : '.scrapbookentry' });
+    itemSelector : '.entry' });
              var $optionSets = $('.sort .option-set'),
                  $optionLinks = $optionSets.find('a');
     $optionLinks.click(function(){
