@@ -1,4 +1,5 @@
-<div class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries"  >
+<div isotope-container="isotope-container">
+<div class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries" isotope-item="isotope-item" onclick="removeItem(this)">
     <div class="entry-info">
         <p class="entry-title"> {{ entry.title }} </p>
         <p class="entry-subtitle">{{ entry.subtitle }} </p>
@@ -12,4 +13,5 @@
     <div class="afterthought">
         <p> <a href="#" data-option-filter=".{{ entry.media }}">{{ entry.media }} </a> | {{ entry.watchdate }}		</p>
     </div>
+</div>
 </div>

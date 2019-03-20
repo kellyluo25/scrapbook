@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/angular.min.js"></script>
     <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+    <script src="js/angular-isotope.js"></script>
 </head>
  
 <body ng-app="ScrapbookApp">
@@ -27,15 +28,15 @@
     
     <div class="nav sort">
 
-    <ul id="filters" class="option-set clearfix" data-option-key="filter">
+        <ul id="filters" opt-kind="" ok-key="filter">
 
-    <li><a href="#" data-option-filter=".scrapbookentry">all</a></li>
-    <li><a href="#" data-option-filter=".films">films</a></li>
-    <li><a href="#" data-option-filter=".shows">shows</a></li>
-    <li><a href="#" data-option-filter=".books">books</a></li>
-    <li><a href="#" data-option-filter=".music">music</a></li>
+            <li><a href="#" ok-sel=".scrapbookentry">all</a></li>
+            <li><a href="#" ok-sel=".films">films</a></li>
+            <li><a href="#" ok-sel=".shows">shows</a></li>
+            <li><a href="#" ok-sel=".books">books</a></li>
+            <li><a href="#" ok-sel=".music">music</a></li>
 
-    </ul>
+        </ul>
     </div>
 </aside>
 
