@@ -8,7 +8,5 @@ app.config(function ($routeProvider,$locationProvider) {
     templateUrl : 'js/app/entry.html',
     controller  : 'ScrapbookController'
   })
-  .otherwise({
-      redirectTo: '/'
-  })
+
 })
