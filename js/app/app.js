@@ -11,3 +11,9 @@ app.config(function($routeProvider) {
       redirectTo: '/'
   })
 })
+
+app.config(["$locationProvider", function($locationProvider) {
+  $locationProvider.html5Mode(true);
+}]);
+
+<base href="/">
