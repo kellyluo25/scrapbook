@@ -1,6 +1,20 @@
 [
   {
     "media": "films",
+    "title": "the darkest minds",
+    "subtitle": 2018, 
+    "watchdate": "march 17, 2019",
+    "quoted": "say you'll remember me
+    	<br /> tanding in a nice dress
+Staring at the sunset, babe
+Red lips and rosy cheeks
+Say you'll see me again
+Even if it's just in your
+Wildest dreams.", 
+    "description": ""
+  },
+  {
+    "media": "films",
     "title": "mamma mia",
     "subtitle": 2018, 
     "watchdate": "january 6, 2019",
