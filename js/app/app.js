@@ -7,5 +7,5 @@ app.config(function ($routeProvider,$locationProvider) {
     templateUrl : 'js/app/entry.html',
     controller  : 'ScrapbookController'
   })
-   $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode(true);
 })
