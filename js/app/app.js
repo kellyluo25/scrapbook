@@ -12,7 +12,3 @@ app.config(function($routeProvider) {
   })
 })
 
-app.config(["$locationProvider", function($locationProvider) {
-  $locationProvider.html5Mode(true);
-}]);
-
