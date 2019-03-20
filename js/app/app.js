@@ -1,6 +1,8 @@
 var app = angular.module('ScrapbookApp', ['ngRoute']);
 
 app.config(function ($routeProvider,$locationProvider) {
+  
+  $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
     templateUrl : 'js/app/entry.html',
@@ -9,6 +11,4 @@ app.config(function ($routeProvider,$locationProvider) {
   .otherwise({
       redirectTo: '/'
   })
-  
-  $locationProvider.hashPrefix('');
 })
