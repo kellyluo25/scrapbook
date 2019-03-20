@@ -1,6 +1,6 @@
 var app = angular.module('ScrapbookApp', ['ngRoute']);
 
-app.config(function ($routeProvider,$locationProvider) {
+app.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
