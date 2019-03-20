@@ -1,6 +1,14 @@
 [
   {
     "media": "films",
+    "title": "love, simon",
+    "subtitle": 2018, 
+    "watchdate": "march 17, 2019",
+    "quoted": "is that seat taken?", 
+    "description": ""
+  },
+  {
+    "media": "films",
     "title": "the darkest minds",
     "subtitle": 2018, 
     "watchdate": "march 17, 2019",
