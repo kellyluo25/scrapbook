@@ -9,6 +9,7 @@ app.config(function ($routeProvider,$locationProvider) {
   .otherwise({
       redirectTo: '/'
   })
-    $locationProvider.hashPrefix('');
+  
+  $locationProvider.hashPrefix('');
   $locationProvider.html5Mode(true);
 })
