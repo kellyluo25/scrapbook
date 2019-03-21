@@ -1,4 +1,4 @@
-var app = angular.module('ScrapbookApp', ['ngRoute']);
+var app = angular.module('ScrapbookApp', ['ngRoute', 'iso.directives', 'iso.services']);
 
 app.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
