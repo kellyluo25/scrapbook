@@ -1,6 +1,14 @@
 [
    {
     "media": "films",
+    "title": "spiderman: into the spiderverse",
+    "subtitle": 2018, 
+    "watchdate": "march 22, 2019",
+    "quoted": "", 
+    "description": "vibrant. every frame is pulled from a comic-book panel. gorgeous art direction, taking animation and comic books where they have never gone before in cinemetography. a gripping, heart-warming story about a kid from brooklyn taking a (rather large) leap of faith."
+  },
+  {
+    "media": "films",
     "title": "captain marvel",
     "subtitle": 2019, 
     "watchdate": "march 17, 2019",
