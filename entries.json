@@ -1,5 +1,29 @@
 [
-   {
+  {
+    "media": "shows",
+    "title": "fresh off the boat",
+    "subtitle": "season 05", 
+    "watchdate": "march 2019 — april 2019",
+    "quoted": "", 
+    "description": "by some miracle, this tiny abc sitcom about a chinese-american immigrant family has made it to 100 episodes"
+  },
+  {
+    "media": "shows",
+    "title": "the resident",
+    "subtitle": "season 02", 
+    "watchdate": "march 2019 — may 2019",
+    "quoted": "", 
+    "description": "heart-stopping, blood pumping. the world of medicine is a messy one"
+  },
+  {
+    "media": "shows",
+    "title": "fresh off the boat",
+    "subtitle": "season 05", 
+    "watchdate": "march 2019 — april 2019",
+    "quoted": "", 
+    "description": "by some miracle, this tiny abc sitcom about a chinese-american immigrant family has made it to 100 episodes"
+  },
+  {
     "media": "shows",
     "title": "kim's convenience",
     "subtitle": "season 01 - 03", 
