@@ -1,11 +1,19 @@
 [
   {
     "media": "shows",
-    "title": "fresh off the boat",
-    "subtitle": "season 05", 
-    "watchdate": "march 2019 — april 2019",
+    "title": "the bold type",
+    "subtitle": "season 03", 
+    "watchdate": "april 2019 — may 2019",
     "quoted": "", 
-    "description": "by some miracle, this tiny abc sitcom about a chinese-american immigrant family has made it to 100 episodes"
+    "description": "bigger, brighter, bolder"
+  },
+  {
+    "media": "shows",
+    "title": "superstore",
+    "subtitle": "season 04", 
+    "watchdate": "march 2019 — may 2019",
+    "quoted": "", 
+    "description": "turning the drudge of retail into hilarity"
   },
   {
     "media": "shows",
