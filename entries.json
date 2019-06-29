@@ -1,5 +1,19 @@
 [
   {
+    "media": "shows",
+    "title": "killing eve",
+    "subtitle": "season 02",
+    "watchdate": "april 14, 2019 - may 19, 2019",
+    "description": "mysterious, intoxicating, the cat and mouse game that spans months and continents"
+  },
+  {
+    "media": "films",
+    "title": "avengers: endgame",
+    "subtitle": "season 08",
+    "watchdate": "april 14, 2019 - may 19, 2019",
+    "description": "this is what saying goodbye to an era is like."
+  },
+  {
     "media": "films",
     "title": "avengers: endgame",
     "subtitle": "april 26, 2019", 
@@ -11,7 +25,7 @@
     "media": "shows",
     "title": "the bold type",
     "subtitle": "season 03", 
-    "watchdate": "april 2019 — may 2019",
+    "watchdate": "april 2019 — june 2019",
     "quoted": "", 
     "description": "bigger, brighter, bolder"
   },
