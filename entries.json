@@ -1,17 +1,31 @@
 [
+   {
+    "media": "shows",
+    "title": "stranger things",
+    "subtitle": "season 03",
+    "watchdate": "july 08, 2019 - ",
+    "description": "this time around, the kids are older and maybe not that much wiser. they're preteens on the cusp of teenagehood, they hang out at malls and still indulge themselves in the games of their youth."
+  },
+  {
+    "media": "shows",
+    "title": "fleabag",
+    "subtitle": "seasons 01 - 02",
+    "watchdate": "june 29, 2019 - june 30, 2019",
+    "description": "hilariously punchy, self-destructive, and a little bit lonely. fleabag will deadpan into the camera and remind you that the world is still a little messed up, but at least she can laugh about it."
+  },
   {
     "media": "shows",
     "title": "killing eve",
     "subtitle": "season 02",
-    "watchdate": "april 14, 2019 - may 19, 2019",
-    "description": "mysterious, intoxicating, the cat and mouse game that spans months and continents; even more deadly this time around"
+    "watchdate": "june 2019",
+    "description": "mysterious, intoxicating, the cat and mouse game that spans months and continents; and even more deadly together."
   },
   {
-    "media": "films",
-    "title": "avengers: endgame",
+    "media": "shows",
+    "title": "game of thrones",
     "subtitle": "season 08",
     "watchdate": "april 14, 2019 - may 19, 2019",
-    "description": "this is what saying goodbye to an era is like."
+    "description": "this is what saying goodbye to an era is like. there's a lot to process, so many of storylines built over the years and even more characters to let go of. the world wasn't quite ready for this to end, but it did anyway."
   },
   {
     "media": "films",
