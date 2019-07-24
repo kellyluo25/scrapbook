@@ -1,10 +1,17 @@
 [
+   {
+    "media": "films",
+    "title": "spiderman: far from home",
+    "subtitle": "2019", 
+    "watchdate": "july 23, 2019",
+    "description": "spiderman, illusions, european adventure, and a romantic comedy."
+  },
   {
     "media": "shows",
-    "title": "stranger things",
+    "title": "veronica mars",
     "subtitle": "season 03",
-    "watchdate": "july 20, 2019 - ",
-    "description": "revivals are devastating. and we really used to be friends."
+    "watchdate": "july 20, 2019 - july 22, 2019",
+    "description": "revivals are devastating. and we really used to be friends. my heart is a little more than broken"
   },
   {
     "media": "shows",
