@@ -1,5 +1,28 @@
 [
-   {
+    {
+    "media": "music",
+    "title": "lover",
+    "subtitle": "taylor swift", 
+    "watchdate": "august 23, 2019",
+    "quoted": "this city screams your name",
+    "description": "i love this album." 
+  },
+  {
+    "media": "films",
+    "title": "detective pikachu",
+    "subtitle": "2019", 
+    "watchdate": "august 19, 2019",
+    "description": "still not sure why they decided to make a live-action mystery pokemon movie, but it works and it's charming; the plot is a little predictable and tracks for the pg rating, but a world with pokemon running around is ultimately better than a world without" 
+  },
+  {
+    "media": "films",
+    "title": "gone girl",
+    "subtitle": "2014", 
+    "watchdate": "august 19, 2019",
+    "quoted": "there's a difference between really loving someone and loving the idea of her.", 
+    "description": "finally got around to watch this intensely psychotic, intoxicating portrait of a broken marriage, a gone girl and lost boy." 
+  },
+  {
     "media": "books",
     "title": "bad blood",
     "subtitle": "john carreyrou", 
