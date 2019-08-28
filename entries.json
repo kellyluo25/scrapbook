@@ -1,11 +1,18 @@
 [
-    {
+      {
+    "media": "shows",
+    "title": "brooklyn nine-nine",
+    "subtitle": "season 06",
+    "watchdate": "jan 2019 - aug 2019",
+    "description": "this show is on nbc and better than ever"
+  },
+  {
     "media": "music",
     "title": "lover",
     "subtitle": "taylor swift", 
     "watchdate": "august 23, 2019",
     "quoted": "this city screams your name",
-    "description": "i love this album." 
+    "description": "i love this album. highlights include cornelia street, cruel summer, and daylight." 
   },
   {
     "media": "films",
