@@ -7,11 +7,18 @@
     "description": "not a fitting end to the once-great x-men series. they should reboot at this point."
   },
   {
+    "media": "books",
+    "title": "a river of stars",
+    "subtitle": "vanessa hua",
+    "watchdate": "june - october 05, 2019",
+    "description": "something along the lines of unexpected immigration, newfound motherhood, and the pure raw strength of a woman scorned."
+  },
+  {
     "media": "music",
     "title": "lauv",
     "subtitle": "how i'm feeling @ house of blues",
     "watchdate": "boston, ma — oct 07, 2019",
-    "quoted": "", 
+    "quoted": "i'm so tired of love songs, tired of love", 
     "description": "this concert was incredible, a near-transcendant experience."
   },
   {
