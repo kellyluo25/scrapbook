@@ -1,5 +1,12 @@
 [
    {
+    "media": "shows",
+    "title": "nancy drew",
+    "subtitle": "2019",
+    "watchdate": "october 2019",
+    "description": "veronica mars meets riverdale, we can only hope it's better than the latter"
+  },
+  {
     "media": "films",
     "title": "dark phoenix",
     "subtitle": "2019",
@@ -17,7 +24,7 @@
     "media": "music",
     "title": "lauv",
     "subtitle": "how i'm feeling @ house of blues",
-    "watchdate": "boston, ma — oct 07, 2019",
+    "watchdate": "boston, ma — october 07, 2019",
     "quoted": "i'm so tired of love songs, tired of love", 
     "description": "this concert was incredible, a near-transcendant experience."
   },
@@ -25,7 +32,7 @@
     "media": "shows",
     "title": "brooklyn nine-nine",
     "subtitle": "season 06",
-    "watchdate": "jan 2019 - aug 2019",
+    "watchdate": "january 2019 - august 2019",
     "description": "this show is on nbc and better than ever"
   },
   {
