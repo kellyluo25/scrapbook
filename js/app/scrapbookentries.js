@@ -1,4 +1,4 @@
-// service
+// service to fetch 'entries'
 
 app.factory('entries', ['$http', function($http) {
   return $http.get('entries.json')

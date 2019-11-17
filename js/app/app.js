@@ -8,10 +8,3 @@ app.config(function ($routeProvider, $locationProvider) {
     controller  : 'ScrapbookController'
   })
 })
-
-// linebreaks filter \n
-app.filter('linebreaks', function () {
-    return function(text) {
-        return text.replace(/\n/g,'<br />'); 
-    }
-});
