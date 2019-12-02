@@ -1,4 +1,19 @@
 [
+    {
+    "media": "films",
+    "title": "searching",
+    "subtitle": "2018",
+    "watchdate": "december 01, 2019",
+    "quoted": "",
+    "description": "the culmination of ten-years of digital-native media in the making. opens up the door for more stories to be told through the lens of human-computer interfaces. the attention to detail, the behaviors that show more than they tell, and the design that says so much more than spoken words."
+  },
+  {
+    "media": "films",
+    "title": "booksmart",
+    "subtitle": "2019",
+    "watchdate": "december 01, 2019",
+    "description": "an ebullient film, a masterpiece of a girl in high school who was booksmart but not lifesmart and had to open her eyes to a little thing called empathy"
+  }, 
   {
     "media": "music",
     "title": "greyson chance",
