@@ -1,10 +1,25 @@
+/* scrollbar */
+
 ::-webkit-scrollbar{
+    height:10px;
+    width:5px;
+    background:inherit;
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(255, 196, 245);
+}
+
+.scrapbookentry ::-webkit-scrollbar{
     height:2px;
     width:1px;
-    background:inherit;}
-::-webkit-scrollbar-thumb {
+    background:inherit;
+}
+
+.scrapbookentry ::-webkit-scrollbar-thumb {
     background:#eee;
 }
+
 ::-webkit-scrollbar-track {
     background:transparent;
 }
@@ -36,31 +51,42 @@ a:hover {
     color: #222222;
 }
 
+@media screen and (max-width:600px) {
+    .nav-archives {
+        display: none; 
+    }
+
+}
+
+
+@media screen and (max-width:1000px) {
+    .scrapbookentry {
+        margin: 1.5%; 
+    }    
+}
+
 aside {
     top: 0;
     left: 0;
-    width: 15%;
     height: 100%;
     position: fixed;
     background: #ffffff;
     text-align: right;
     padding-right: 30px;
     padding-left: 30px;
-    margin-right: 20px; 
+    width: 200px; 
 }
 
 h1 {
     color: #333333;
     font-size: 25px;
     letter-spacing: 5px;
-    display: block;
     margin-bottom: 10px;
     margin-top: 50%; 
     font-weight: 300;
 }
 
 h3 {
-    font-family:'Playfair Display', 'Open Sans', sans-serif; 
     font-size: 100px; 
     font-weight: normal;
     margin-top: 0px; 
@@ -69,10 +95,6 @@ h3 {
     color: #333333;
     letter-spacing: 20px; 
 }
-
-nav a {
-    display: block;
-    margin-top: 3px; }
 
 aside a:after {
     content: '/';
@@ -92,12 +114,17 @@ aside a:hover:after, .sort a:hover:after {
     margin-right: 15px;
 }
 
+aside li a.selected:after {
+    margin-right:15px;
+    color: #d86e95;
+}
+
 aside li {
     list-style:none;
     margin-top:3px;
 }
 
-#nav-archives {
+.nav-archives {
     margin-top: 40px; 
     padding-bottom: 25px;
     border-bottom: 1px solid #eeeeee;
@@ -108,6 +135,9 @@ aside li {
     padding-top: 20px;
 }
 
+.sort li a.selected {
+    
+}
 
 aside li a.selected:after {
     margin-right:15px;
@@ -126,19 +156,24 @@ aside li a.selected:after {
 }
 
 section {
+    margin-top: 60px;
+    margin-left: 320px;
+    max-width: 70%;
+}
+/*
+section {
     margin: 60px;
     left: 250px;
     max-width: 70%; 
     overflow-x: hidden; 
 }
+*/
 
-.entry {
+.scrapbookentry {
     background: #ffffff;
-    width: 200px; 
     padding: 15px;
-    float: left;
-    display: block;
-    margin: 30px; 
+    margin: 3%; 
+    width: 200px; 
 }
 
 .entry-info {
@@ -148,7 +183,7 @@ section {
 }
 
 .entry-title {
-    font-size: 13px;
+    font-size: 1.5em;
     font-weight: 400;
     font-style: italic;
     font-weight: bold; 
@@ -156,7 +191,7 @@ section {
 }
 
 .entry-subtitle {
-    font-size: 9px; 
+    font-size: 10px; 
     margin: 0px; 
     margin-top: -10px; 
     text-transform: uppercase; 
@@ -170,6 +205,7 @@ section {
     margin-top: 15px; 
     margin-bottom: 10px; 
     line-height: 175%;
+    font-size: 11px;
 }
 
 
@@ -202,4 +238,70 @@ section {
 .link a { border-right:1px solid #eee;margin-right:10px;padding-right:10px; font-size:9px;text-transform:uppercase;letter-spacing:.5px;margin-left:-10px;}
 .fave:after {
     top:5px;right:5px;content:' ♥ ';position:absolute;padding:2px 6px;background:#fafafa;color:#D490B0;border:1px solid #eee;border-radius:3px;
+}
+
+/* Start: Recommended Isotope styles */
+
+
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
 }
