@@ -24,6 +24,12 @@
     background:transparent;
 }
 
+::selection {
+    background: #c4daf5;
+    color: #ffffff;
+}
+
+
 body {
     background: #f7f7f7;
     color: #767676;
@@ -45,7 +51,7 @@ a {
     color: #999999; 
     text-decoration: none;
 }
- 
+
 a:hover {
     text-decoration: none;
     color: #222222;
@@ -96,13 +102,21 @@ h3 {
     letter-spacing: 20px; 
 }
 
-aside a:after {
+aside .nav-archives li:after {
     content: '/';
     color: #666666;
     margin-left: 5px;
     font-weight: bold;
 }
 
+.credit {
+    color: #FF7585; 
+}
+
+.credit:after {
+    content: '';
+}
+ 
 .sort a:after {
     content: '+';
     color: #666666;
