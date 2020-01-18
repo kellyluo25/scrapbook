@@ -1,11 +1,19 @@
 [
   {
+    "media": "books",
+    "title": "atomic habits",
+    "subtitle": "james clear",
+    "watchdate": "jan 02, 2020 - jan 10, 2020",
+    "quoted": "",
+    "description": "make it obvious; make it easy; make it attractive; make it satisfying"
+  },
+  {
     "media": "shows",
-    "title": "high school musical: the musical: the series ",
+    "title": "high school musical: the musical: the series",
     "subtitle": "season 01",
     "watchdate": "january 10, 2020",
     "quoted": "we're all in this together",
-    "description": "will be the first to admit that i thought this was genuinely going to be terrible and an abomination by disney standards, and was delightfully surprised to see how much heart this series has. it's teenagers being teenagers, who also happen to be brilliantly talented, and just plain funny at times."
+    "description": "i will be the first to admit that i thought this was genuinely going to be terrible and an abomination by disney standards, and was delightfully surprised to see how much heart this series has. it's teenagers being teenagers, who also happen to be brilliantly talented, and just plain funny at times."
   },
   {
     "media": "shows",
