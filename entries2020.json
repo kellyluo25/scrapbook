@@ -1,4 +1,12 @@
 [
+    {
+    "media": "films",
+    "title": "miss americana",
+    "subtitle": "2020",
+    "watchdate": "february 22, 2020",
+    "quoted": "",
+    "description": "this is taylor swift at her best. a once-country darling turned teen superstar turned political pop princess."
+  },
   {
     "media": "shows",
     "title": "kim's convenience",
@@ -15,11 +23,11 @@
     "quoted": "",
     "description": "healthcare is broken, and that's not anything new."
   },
-    {
+  {
     "media": "films",
     "title": "hustlers",
     "subtitle": "2019",
-    "watchdate": "jan 22, 2020",
+    "watchdate": "january 22, 2020",
     "quoted": "",
     "description": "free flowing money and seedy nightclubs and the 2008 recession."
   },
