@@ -1,11 +1,90 @@
 [
+   {
+    "media": "films",
+    "title": "casablanca",
+    "subtitle": "1942 @ the brattle theatre",
+    "watchdate": "february 15, 2020",
+    "quoted": "we'll always have paris",
+    "description": "ranked one of the best american films of all time. full of greys and moral ambiguity against the chaotic backdrop of the second world war."
+  },
+  {
+    "media": "films",
+    "title": "to all the boys: p.s. i still love you",
+    "subtitle": "2020",
+    "watchdate": "february 15, 2020",
+    "quoted": "they say it's better to have loved and lost (than never to have loved at all)",
+    "description": "lara jean pulls a meredith grey—she just wants a boy to pick her, choose her, and love her—but the boy who does is john ambrose and suddenly it feels all wrong. some say the love triangle in this film is team peter vs. john ambrose, but the real triangle is between lara jean’s romantic ideals vs. unideal romance. she has this picture-perfect idea of what her first love should be like and this fantasy of a boy that she’s basically written into existence. and yes, john ambrose *is* perfect, and she tells her heart that john ambrose is perfect because a boy like him would never break her heart. the same heart she has spent all those years sealing up in love letters she would never send. but then lara jean realizes that heartbreak is very real and it hurts—and she learns that sometimes the realest parts in life are the things that make you *feel*. so this girl who bakes chocolate peanut butter cupcakes and writes love letters in her childhood bedroom acknowledges that the fantasy isn’t real, but she does have something real right in front of her. what’s real is messy and a little broken and doesn’t fit neatly within the purple prose of her novels. but it doesn’t have to be perfect; it just has to be hers. so she picks."
+  },
+   {
+    "media": "shows",
+    "title": "the end of the fucking world",
+    "subtitle": "seasons 01-02",
+    "watchdate": "feb 10, 2020 - feb 12, 2020",
+    "quoted": "",
+    "description": "bold and british, full of dark comedy and deadpans."
+  },
+  {
+    "media": "films",
+    "title": "miss americana",
+    "subtitle": "2020",
+    "watchdate": "february 22, 2020",
+    "quoted": "",
+    "description": "this is taylor swift at her best. a once-country darling turned teen superstar turned political pop princess."
+  },
   {
     "media": "shows",
-    "title": "placeholder",
-    "subtitle": "seasons 03",
-    "watchdate": "january 2020",
+    "title": "kim's convenience",
+    "subtitle": "season 03",
+    "watchdate": "jan 25, 2020 - ",
     "quoted": "",
-    "description": "placeholder post for a year of scrapbooking to come."
-  }, 
-  {}
+    "description": "love this little show about a korean family running a neighborhood corner store."
+  },
+  {
+    "media": "shows",
+    "title": "the resident",
+    "subtitle": "season 03",
+    "watchdate": "jan 23, 2020 - jan 24, 2020",
+    "quoted": "",
+    "description": "healthcare is broken, and that's not anything new."
+  },
+  {
+    "media": "films",
+    "title": "hustlers",
+    "subtitle": "2019",
+    "watchdate": "january 22, 2020",
+    "quoted": "",
+    "description": "free flowing money and seedy nightclubs and the 2008 recession."
+  },
+  {
+    "media": "books",
+    "title": "excellent sheep: the miseducation of the american elite and the way to a meaningful life ",
+    "subtitle": "william deresiewicz",
+    "watchdate": "jan 09, 2020 - jan 12, 2020",
+    "quoted": "for that is one of the greatest curses of the high-achieving mentality: the envy that it forces on you—the desperation, not simply to be loved, but to be loved, as Auden says, alone.",
+    "description": ""
+  },
+  {
+    "media": "books",
+    "title": "atomic habits",
+    "subtitle": "james clear",
+    "watchdate": "jan 02, 2020 - jan 10, 2020",
+    "quoted": "",
+    "description": "make it obvious; make it easy; make it attractive; make it satisfying"
+  },
+  {
+    "media": "shows",
+    "title": "high school musical: the musical: the series",
+    "subtitle": "season 01",
+    "watchdate": "january 10, 2020",
+    "quoted": "we're all in this together",
+    "description": "i will be the first to admit that i thought this was genuinely going to be terrible and an abomination by disney standards, and was delightfully surprised to see how much heart this series has. it's teenagers being teenagers, who also happen to be brilliantly talented, and just plain funny at times."
+  },
+  {
+    "media": "shows",
+    "title": "spinning out ",
+    "subtitle": "season 01",
+    "watchdate": "jan 07 2020 - jan 08, 2020",
+    "quoted": "",
+    "description": "the intrigue of competitive skating meets canadian ice dancing royalty drama we've always wanted, delivered in a netflix production with quick plot progressions and character arcs on fast-forward."
+  }
 ]
