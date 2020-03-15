@@ -1,5 +1,28 @@
 [
-   {
+    {
+    "media": "shows",
+    "title": "survivor",
+    "subtitle": "season 40",
+    "watchdate": "feb 12, 2020 -",
+    "quoted": "winners at war",
+    "description": "the greatest of the greats, all the strategy and subterfuge and subversion that has made survivor one of the reality show greats."
+  },
+    {
+    "media": "shows",
+    "title": "the bold type",
+    "subtitle": "season 04",
+    "watchdate": "feb 12, 2020 -",
+    "quoted": "",
+    "description": "is adulthood meant to be this hard? it's so important to keep this show going."
+  },
+    {
+    "media": "films",
+    "title": "hercules",
+    "subtitle": "2014",
+    "watchdate": "february 23, 2020",
+    "description": "the film tempers the myth and elevates the man in the story of the battle-hardened Hercules in a film that can’t quite decide if it’s a cliché war drama or an action film set in the wrong century."
+  },
+  {
     "media": "films",
     "title": "casablanca",
     "subtitle": "1942 @ the brattle theatre",
@@ -83,7 +106,7 @@
     "media": "shows",
     "title": "spinning out ",
     "subtitle": "season 01",
-    "watchdate": "jan 07 2020 - jan 08, 2020",
+    "watchdate": "jan 07, 2020 - jan 08, 2020",
     "quoted": "",
     "description": "the intrigue of competitive skating meets canadian ice dancing royalty drama we've always wanted, delivered in a netflix production with quick plot progressions and character arcs on fast-forward."
   }
