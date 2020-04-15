@@ -1,5 +1,34 @@
 [
-    {
+   {
+    "media": "films",
+    "title": "tigertail",
+    "subtitle": "2020",
+    "watchdate": "april 11, 2020",
+    "description": "tigertail (dir. alan yang) was beautiful and poignant in the way you come home after a long day and allow yourself to slowly unwind in the silence. the film soaks in the quiet, recognizes that there aren’t always words to say what you mean, and visually renders those moments to speak louder than the script. it’s pin jui sitting with a cup of tea in his dining room, alone in a big house. it’s angela with a half-eaten meal, wishing her father would say something. it’s the two of them together, framed side-by-side by a concrete block at the end. this film was alan yang’s way of producing a careful study of his own father, vivid in color and pensive in thought. it makes you want to stop and study your parents too; think about where they came from and what they have to say too."
+  },
+  {
+    "media": "films",
+    "title": "a simple favor",
+    "subtitle": "2018",
+    "watchdate": "april 11, 2020",
+    "description": "mommy bloggers have so much power and anna kendrick is pitch-perfect in this movie. if serena vdw had gone off the rails after season 6 of gossip girl, blake lively would have the same nonchalant expression on her face."
+  },
+   {
+    "media": "films",
+    "title": "little women",
+    "subtitle": "2019",
+    "watchdate": "april 1, 2020",
+    "description": "justice for jo and sign me up for the i-hate-amy-march club, thanks."
+  },
+  {
+    "media": "shows",
+    "title": "top chef",
+    "subtitle": "season 17",
+    "watchdate": "mar 19, 2020 -",
+    "quoted": "all-stars @ LA",
+    "description": "the single most important culinary event to happen to us this spring. good food, great chefs."
+  },
+  {
     "media": "shows",
     "title": "survivor",
     "subtitle": "season 40",
@@ -11,9 +40,9 @@
     "media": "shows",
     "title": "the bold type",
     "subtitle": "season 04",
-    "watchdate": "feb 12, 2020 -",
+    "watchdate": "feb 12, 2020 - mar 26, 2020",
     "quoted": "",
-    "description": "is adulthood meant to be this hard? it's so important to keep this show going."
+    "description": "is adulthood meant to be this hard? when you're twenty-something in new york and it's supposed to be the best years of your life, but the years keep catching up to you."
   },
     {
     "media": "films",
