@@ -52,6 +52,14 @@
     "quoted": "all-stars @ LA",
     "description": "the single most important culinary event to happen to us this spring. good food, great chefs."
   },
+      {
+    "media": "books",
+    "title": "smart people should build things",
+    "subtitle": "andrew yang",
+    "watchdate": "jan 15, 2020 - mar 15, 2020",
+    "quoted": "",
+    "description": "smart people can, and want, to build things. perfect for the quarter-life crisis coming near you."
+  },
   {
     "media": "shows",
     "title": "survivor",
@@ -119,7 +127,7 @@
     "media": "shows",
     "title": "the resident",
     "subtitle": "season 03",
-    "watchdate": "jan 23, 2020 - jan 24, 2020",
+    "watchdate": "jan 23, 2020 - apr 7, 2020",
     "quoted": "",
     "description": "healthcare is broken, and that's not anything new."
   },
