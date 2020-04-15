@@ -1,5 +1,13 @@
 [
-   {
+     {
+    "media": "books",
+    "title": "educated",
+    "subtitle": "tara westover",
+    "watchdate": "apr 11, 2020 - apr 14, 2020",
+    "quoted": "it’s strange how you give the people you love so much power over you.",
+    "description": "a heartbreakingly necessary read. call it an education."
+  },
+  {
     "media": "films",
     "title": "tigertail",
     "subtitle": "2020",
@@ -19,6 +27,22 @@
     "subtitle": "2019",
     "watchdate": "april 1, 2020",
     "description": "justice for jo and sign me up for the i-hate-amy-march club, thanks."
+  },
+  {
+    "media": "books",
+    "title": "the song of achilles",
+    "subtitle": "madeline miller",
+    "watchdate": "mar 16, 2020 - mar 22, 2020",
+    "quoted": "as the poets say",
+    "description": "cannot in good faith recommend this book to anyone, but read chapters 30-34 at the very most. that's where the poetry is."
+  },
+    {
+    "media": "books",
+    "title": "uncanny valley",
+    "subtitle": "anna weiner",
+    "watchdate": "mar 17, 2020 - mar 19, 2020",
+    "quoted": "the pursuit of authenticity without realizing that the most authentic thing about the city was, at this moment in time, them",
+    "description": "ripping out all the accessories of silicon valley we know down to its barest, gleaming parts."
   },
   {
     "media": "shows",
