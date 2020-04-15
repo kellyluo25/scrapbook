@@ -1,5 +1,5 @@
 [
-     {
+   {
     "media": "books",
     "title": "educated",
     "subtitle": "tara westover",
@@ -165,10 +165,18 @@
   },
   {
     "media": "shows",
-    "title": "spinning out ",
+    "title": "spinning out",
     "subtitle": "season 01",
     "watchdate": "jan 07, 2020 - jan 08, 2020",
     "quoted": "",
     "description": "the intrigue of competitive skating meets canadian ice dancing royalty drama we've always wanted, delivered in a netflix production with quick plot progressions and character arcs on fast-forward."
+  },
+  {
+    "media": "music",
+    "title": "fine line",
+    "subtitle": "harry styles",
+    "watchdate": "jan 2020",
+    "quoted": "oh, we'll be alright",
+    "description": "the kind of vintage heartbreak that plays in the background, the soundtrack of an iconic music moment that lingers in the distance."
   }
 ]
