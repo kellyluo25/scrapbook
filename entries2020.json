@@ -1,11 +1,19 @@
 [
    {
     "media": "films",
+    "title": "emmma.",
+    "subtitle": "2020",
+    "watchdate": "april 19, 2020",
+    "quoted": "if i loved you less, i might be able to talk about it more", 
+    "description": "beautiful pastel, english countryside"
+  },
+  {
+    "media": "films",
     "title": "10 things i hate about you",
     "subtitle": "1999",
     "watchdate": "april 18, 2020",
     "quoted": "why should i live up to other people's expectations instead of my own?", 
-    "description": "- the magical makeover trope is alive and well in this one"
+    "description": "this made the spirit of will shakespeare proud."
   },
   {
     "media": "films",
@@ -13,7 +21,7 @@
     "subtitle": "1999",
     "watchdate": "april 17, 2020",
     "quoted": "you're vapor...a waste of perfectly good yearbook space", 
-    "description": "- the magical makeover trope is alive and well in this one"
+    "description": "the magical makeover trope is alive and well in this one."
   },
   {
     "media": "books",
