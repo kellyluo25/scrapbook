@@ -1,5 +1,13 @@
 [
-     {
+    {
+    "media": "films",
+    "title": "the half of it",
+    "subtitle": "2020",
+    "watchdate": "may 01, 2020",
+    "quoted": "It’s about three people who collide in a moment-in-time before going their separate ways, each now holding the piece of themselves that allows them to become the person they are meant to be. The end of the film is each of their beginnings. And for my characters, I can think of no happier ending.", 
+    "description": ""
+  },
+   {
     "media": "books",
     "title": "normal people",
     "subtitle": "sally rooney",
