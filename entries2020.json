@@ -1,5 +1,13 @@
 [
-   {
+     {
+    "media": "books",
+    "title": "normal people",
+    "subtitle": "sally rooney",
+    "watchdate": "april 30, 2020",
+    "quoted": "then it went away, and a certain short chapter of youth had concluded, and she had survived it, it was done.",
+    "description": "two people. maybe friends, maybe lovers, or maybe even soulmates. it's an inherently introspective novel, simmering with bottled-up emotions and thoughts unspoken."
+  },
+  {
     "media": "films",
     "title": "emma.",
     "subtitle": "2020",
