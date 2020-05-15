@@ -1,5 +1,21 @@
 [
+{
+    "media": "books",
+    "title": "uncanny valley",
+    "subtitle": "anna wiener",
+    "watchdate": "march 17 - 19, 2020",
+    "quoted": "they persued authenticity without realizing that the most authentic thing about the city was, at this moment in time, them.",
+    "description": "literary prose in a vicious take-down of the lofty orchestrations of the tech scene in san francisco."
+  },
     {
+    "media": "books",
+    "title": "smart people should build things",
+    "subtitle": "andrew yang",
+    "watchdate": "jan 16, 2020 - mar 15, 2020",
+    "quoted": "",
+    "description": "a vision for america that is bold and embracing, welcomes innovators and risk-takers who want to create opportunity rather than sieze it when convenient."
+  },
+ {
     "media": "shows",
     "title": "survivor",
     "subtitle": "season 40",
@@ -80,11 +96,11 @@
   },
   {
     "media": "books",
-    "title": "excellent sheep: the miseducation of the american elite and the way to a meaningful life ",
+    "title": "excellent sheep",
     "subtitle": "william deresiewicz",
     "watchdate": "jan 09, 2020 - jan 12, 2020",
     "quoted": "for that is one of the greatest curses of the high-achieving mentality: the envy that it forces on you—the desperation, not simply to be loved, but to be loved, as Auden says, alone.",
-    "description": ""
+    "description": "on the miseducation of the american elite and the way to a meaningful life"
   },
   {
     "media": "books",
