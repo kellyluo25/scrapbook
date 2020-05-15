@@ -1,21 +1,114 @@
 [
-{
+    {
+    "media": "films",
+    "title": "the half of it",
+    "subtitle": "2020",
+    "watchdate": "may 01, 2020",
+    "quoted": "It’s about three people who collide in a moment-in-time before going their separate ways, each now holding the piece of themselves that allows them to become the person they are meant to be. The end of the film is each of their beginnings. And for my characters, I can think of no happier ending.", 
+    "description": ""
+  },
+   {
     "media": "books",
-    "title": "uncanny valley",
-    "subtitle": "anna wiener",
-    "watchdate": "march 17 - 19, 2020",
-    "quoted": "they persued authenticity without realizing that the most authentic thing about the city was, at this moment in time, them.",
-    "description": "literary prose in a vicious take-down of the lofty orchestrations of the tech scene in san francisco."
+    "title": "normal people",
+    "subtitle": "sally rooney",
+    "watchdate": "april 30, 2020",
+    "quoted": "then it went away, and a certain short chapter of youth had concluded, and she had survived it, it was done.",
+    "description": "two people. maybe friends, maybe lovers, or maybe even soulmates. it's an inherently introspective novel, simmering with bottled-up emotions and thoughts unspoken."
+  },
+  {
+    "media": "films",
+    "title": "emma.",
+    "subtitle": "2020",
+    "watchdate": "april 19, 2020",
+    "quoted": "if i loved you less, i might be able to talk about it more", 
+    "description": "beautiful pastel, english countryside. full of spontaneous humor and lush rolling greens. captures the spirit of austen in all of its innocence and novelty and regency-era longing."
+  },
+  {
+    "media": "films",
+    "title": "10 things i hate about you",
+    "subtitle": "1999",
+    "watchdate": "april 18, 2020",
+    "quoted": "why should i live up to other people's expectations instead of my own?", 
+    "description": "this made the spirit of will shakespeare proud."
+  },
+  {
+    "media": "films",
+    "title": "she's all that",
+    "subtitle": "1999",
+    "watchdate": "april 17, 2020",
+    "quoted": "you're vapor...a waste of perfectly good yearbook space", 
+    "description": "the magical makeover trope is alive and well in this one."
   },
     {
     "media": "books",
+    "title": "loveboat, taipei",
+    "subtitle": "abigail hing-wen",
+    "watchdate": "april 16, 2020",
+    "quoted": "",
+    "description": "a summer that reminds you that it's okay to break the rules yourself, because only the, can you truly begin to learn yourself again. this book reminded me of how important it is to write and tell stories, ones that matter to you and ones that you've been keeping inside of you."
+  },
+  {
+    "media": "books",
+    "title": "educated",
+    "subtitle": "tara westover",
+    "watchdate": "apr 11, 2020 - apr 14, 2020",
+    "quoted": "it’s strange how you give the people you love so much power over you.",
+    "description": "a heartbreakingly necessary read. call it an education."
+  },
+  {
+    "media": "films",
+    "title": "tigertail",
+    "subtitle": "2020",
+    "watchdate": "april 11, 2020",
+    "description": "tigertail (dir. alan yang) was beautiful and poignant in the way you come home after a long day and allow yourself to slowly unwind in the silence. the film soaks in the quiet, recognizes that there aren’t always words to say what you mean, and visually renders those moments to speak louder than the script. it’s pin jui sitting with a cup of tea in his dining room, alone in a big house. it’s angela with a half-eaten meal, wishing her father would say something. it’s the two of them together, framed side-by-side by a concrete block at the end. this film was alan yang’s way of producing a careful study of his own father, vivid in color and pensive in thought. it makes you want to stop and study your parents too; think about where they came from and what they have to say too."
+  },
+  {
+    "media": "films",
+    "title": "a simple favor",
+    "subtitle": "2018",
+    "watchdate": "april 11, 2020",
+    "description": "mommy bloggers have so much power and anna kendrick is pitch-perfect in this movie. if serena vdw had gone off the rails after season 6 of gossip girl, blake lively would have the same nonchalant expression on her face."
+  },
+   {
+    "media": "films",
+    "title": "little women",
+    "subtitle": "2019",
+    "watchdate": "april 1, 2020",
+    "description": "justice for jo and sign me up for the i-hate-amy-march club, thanks."
+  },
+  {
+    "media": "books",
+    "title": "the song of achilles",
+    "subtitle": "madeline miller",
+    "watchdate": "mar 16, 2020 - mar 22, 2020",
+    "quoted": "as the poets say",
+    "description": "cannot in good faith recommend this book to anyone, but read chapters 30-34 at the very most. that's where the poetry is."
+  },
+    {
+    "media": "books",
+    "title": "uncanny valley",
+    "subtitle": "anna weiner",
+    "watchdate": "mar 17, 2020 - mar 19, 2020",
+    "quoted": "the pursuit of authenticity without realizing that the most authentic thing about the city was, at this moment in time, them.",
+    "description": "ripping out all the accessories of silicon valley we know down to its barest, gleaming parts."
+  },
+  {
+    "media": "shows",
+    "title": "top chef",
+    "subtitle": "season 17",
+    "watchdate": "mar 19, 2020 -",
+    "quoted": "all-stars @ LA",
+    "description": "the single most important culinary event to happen to us this spring. good food, great chefs."
+  },
+      {
+    "media": "books",
     "title": "smart people should build things",
     "subtitle": "andrew yang",
-    "watchdate": "jan 16, 2020 - mar 15, 2020",
+    "watchdate": "jan 15, 2020 - mar 15, 2020",
     "quoted": "",
-    "description": "a vision for america that is bold and embracing, welcomes innovators and risk-takers who want to create opportunity rather than sieze it when convenient."
+    "description": "smart people can, and want, to build things. perfect for the quarter-life crisis coming near you."
   },
- {
+  {
     "media": "shows",
     "title": "survivor",
     "subtitle": "season 40",
@@ -27,9 +120,9 @@
     "media": "shows",
     "title": "the bold type",
     "subtitle": "season 04",
-    "watchdate": "feb 12, 2020 -",
+    "watchdate": "feb 12, 2020 - mar 26, 2020",
     "quoted": "",
-    "description": "is adulthood meant to be this hard? it's so important to keep this show going."
+    "description": "is adulthood meant to be this hard? when you're twenty-something in new york and it's supposed to be the best years of your life, but the years keep catching up to you."
   },
     {
     "media": "films",
@@ -82,7 +175,7 @@
     "media": "shows",
     "title": "the resident",
     "subtitle": "season 03",
-    "watchdate": "jan 23, 2020 - jan 24, 2020",
+    "watchdate": "jan 23, 2020 - apr 7, 2020",
     "quoted": "",
     "description": "healthcare is broken, and that's not anything new."
   },
@@ -100,7 +193,7 @@
     "subtitle": "william deresiewicz",
     "watchdate": "jan 09, 2020 - jan 12, 2020",
     "quoted": "for that is one of the greatest curses of the high-achieving mentality: the envy that it forces on you—the desperation, not simply to be loved, but to be loved, as Auden says, alone.",
-    "description": "on the miseducation of the american elite and the way to a meaningful life"
+    "description": "the miseducation of the american elite and the way to a meaningful life"
   },
   {
     "media": "books",
@@ -120,10 +213,18 @@
   },
   {
     "media": "shows",
-    "title": "spinning out ",
+    "title": "spinning out",
     "subtitle": "season 01",
     "watchdate": "jan 07, 2020 - jan 08, 2020",
     "quoted": "",
     "description": "the intrigue of competitive skating meets canadian ice dancing royalty drama we've always wanted, delivered in a netflix production with quick plot progressions and character arcs on fast-forward."
+  },
+  {
+    "media": "music",
+    "title": "fine line",
+    "subtitle": "harry styles",
+    "watchdate": "jan 2020",
+    "quoted": "oh, we'll be alright",
+    "description": "the kind of vintage heartbreak that plays in the background, the soundtrack of an iconic music moment that lingers in the distance."
   }
 ]
