@@ -124,13 +124,12 @@ aside .nav-archives li:after {
     font-weight: bold;
 }
 
-aside a:hover:after, .sort a:hover:after {
+aside a:hover:after {
     margin-right: 15px;
 }
 
-aside li a.selected:after {
-    margin-right:15px;
-    color: #d86e95;
+aside a:hover:after, .sort a:hover:after {
+    margin-right: 15px;
 }
 
 aside li {
@@ -138,24 +137,25 @@ aside li {
     margin-top:3px;
 }
 
+aside li a.selected:after {
+    margin-right:15px;
+    color: #d86e95;
+}
+
+
 .nav-archives {
     margin-top: 40px; 
     padding-bottom: 25px;
     border-bottom: 1px solid #eeeeee;
 }
 
+.nav-archives a:hover:after {
+    margin-right: 15px;
+}
+
 .sort ul {
     margin-left: 0px;
     padding-top: 20px;
-}
-
-.sort li a.selected {
-    
-}
-
-aside li a.selected:after {
-    margin-right:15px;
-    color: #d86e95;
 }
 
 #archive { 

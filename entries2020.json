@@ -1,11 +1,52 @@
 [
+    
+  {
+    "media": "films",
+    "title": "candy jar",
+    "subtitle": "2018",
+    "watchdate": "may 11, 2020",
+    "quoted": "i mean, i don't think we were ever really high schoolers", 
+    "description": "a textbook study of vehement enemies to reluctant partners/friends to budding lovers trope. these are ambitious, obsessive, fast-talking and generally unlikeable teenagers that remind me of my high school self."
+  },
+    {
+    "media": "shows",
+    "title": "zoey's extraordinary playlist",
+    "subtitle": "2020",
+    "watchdate": "may 04, 2020 - may 06, 2020",
+    "quoted": "",
+    "description": "a rambunctious delight with pops of bright yellow color and real heart-to-hearts. it's the soundtrack of your life playing through the speakers."
+  },
+{
+    "media": "films",
+    "title": "parasite",
+    "subtitle": "2019",
+    "watchdate": "may 03, 2020",
+    "quoted": "", 
+    "description": "breathtakingly brilliant. the type of film that holds a mirror to society and tells you to watch and make judgments for yourself. the best way to watch this film, as they say, is to enter without any prior knowledge or expectations."
+  },
+    {
+    "media": "shows",
+    "title": "never have i ever",
+    "subtitle": "2020",
+    "watchdate": "may 02, 2020",
+    "quoted": "", 
+    "description": "an ebullient series that made me laugh and cry and scream. our main lead, devi, is spectacular. she is complex, grieving, and confused. she keeps it real and has a biting, self-deprecating sende of humor. “whip-smart.” she loves school and that’s cool. she gets angry and has temper tantrums."
+  },
     {
     "media": "films",
     "title": "the half of it",
     "subtitle": "2020",
     "watchdate": "may 01, 2020",
-    "quoted": "It’s about three people who collide in a moment-in-time before going their separate ways, each now holding the piece of themselves that allows them to become the person they are meant to be. The end of the film is each of their beginnings. And for my characters, I can think of no happier ending.", 
+    "quoted": "It’s about three people who collide in a moment-in-time before going their separate ways, each now holding the piece of themselves that allows them to become the person they are meant to be. the end of the film is each of their beginnings. and for my characters, I can think of no happier ending.", 
     "description": ""
+  },
+     {
+    "media": "shows",
+    "title": "normal people",
+    "subtitle": "2020",
+    "watchdate": "apr 30, 2020 - may 04, 2020",
+    "quoted": "all those years they've been like two little plants sharing the same plot of soil, growing around one another, controting to make room, taking certain unlikely positions.",
+    "description": "a stunning adaptation, very quiet but poised. the acting is stellar, the script and pacing very well-reasoned. for a highly introspective book, this adaptation renders these characters with stunning clarity."
   },
    {
     "media": "books",
@@ -76,6 +117,14 @@
     "watchdate": "april 1, 2020",
     "description": "justice for jo and sign me up for the i-hate-amy-march club, thanks."
   },
+      {
+    "media": "books",
+    "title": "hooked",
+    "subtitle": "nir eyal",
+    "watchdate": "mar 28, 2020 - may 03, 2020",
+    "quoted": "are you a vitamin or are you a painkiller?",
+    "description": "in conclusion: we haven't had time to develop societal 'antibodies to addictive new things'"
+  },
   {
     "media": "books",
     "title": "the song of achilles",
@@ -112,7 +161,7 @@
     "media": "shows",
     "title": "survivor",
     "subtitle": "season 40",
-    "watchdate": "feb 12, 2020 -",
+    "watchdate": "feb 12, 2020 - may 14, 2020",
     "quoted": "winners at war",
     "description": "the greatest of the greats, all the strategy and subterfuge and subversion that has made survivor one of the reality show greats."
   },
