@@ -137,7 +137,7 @@ aside li {
     margin-top:3px;
 }
 
-aside li a.selected:after {
+aside li a.active:after {
     margin-right:15px;
     color: #d86e95;
 }

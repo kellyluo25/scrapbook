@@ -1,4 +1,4 @@
-// service to fetch 'entries'
+// service to fetch 'entries' from json data
 
 app2020.factory('entries', ['$http', function($http) {
   return $http.get('/entries2020.json')

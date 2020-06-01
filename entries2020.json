@@ -1,5 +1,52 @@
 [
-    
+  {
+    "media": "films",
+    "title": "hercules",
+    "subtitle": "1997",
+    "watchdate": "may 29, 2020",
+    "quoted": "and that's the gospel truth",
+    "description": "the origin story of a beloved hero of myth."
+  },
+    {
+    "media": "films",
+    "title": "legally blonde: the musical",
+    "subtitle": "may 26, 2020",
+    "watchdate": "may 28, 2020",
+    "quoted": "ohmigod! ohmigod you guys",
+    "description": "bigger, better, blonder in musical form"
+  },
+    {
+    "media": "films",
+    "title": "the portrait of a lady on fire",
+    "subtitle": "2019",
+    "watchdate": "may 26, 2020",
+    "quoted": "he chooses the memory of her; that's why he turns.",
+    "description": "evocative, insightful. questions the constructs between artist and muse. brings the myth of orpheus and eurydice to the forefront of a conversation about the preservation of a memory and a person through art."
+  },
+    {
+    "media": "books",
+    "title": "the ballad of songbirds and snakes",
+    "subtitle": "suzanne collins",
+    "watchdate": "may 19, 2020 - may 20, 2020",
+    "quoted": "nothing you can take from me was ever worth keeping.",
+    "description": "the rise of a tyrant, or the making of a teenage psychopath, both poorly writen; if you ever had any doubt we were in fact living the hunger games."
+  },
+    {
+    "media": "shows",
+    "title": "brooklyn nine-nine",
+    "subtitle": "season 07",
+    "watchdate": "may 19, 2020 - may 20, 2020",
+    "quoted": "",
+    "description": "the great valloweaster; or the halloween-valentine's day-easter heist"
+  },  
+  {
+    "media": "books",
+    "title": "the war on normal people",
+    "subtitle": "andrew yang",
+    "watchdate": "may 14, 2020 - may 15, 2020",
+    "quoted": "",
+    "description": "we're so far from normalcy. this book takes a broader anthropological assessment of the threat of automation and proposal for universal basic income rather than dwell a detailed unit economic argument. it makes you realize that if you're reading this book it's not talking about you."
+  },
   {
     "media": "films",
     "title": "candy jar",
@@ -37,7 +84,7 @@
     "title": "the half of it",
     "subtitle": "2020",
     "watchdate": "may 01, 2020",
-    "quoted": "It’s about three people who collide in a moment-in-time before going their separate ways, each now holding the piece of themselves that allows them to become the person they are meant to be. the end of the film is each of their beginnings. and for my characters, I can think of no happier ending.", 
+    "quoted": "it’s about three people who collide in a moment-in-time before going their separate ways, each now holding the piece of themselves that allows them to become the person they are meant to be. the end of the film is each of their beginnings. and for my characters, i can think of no happier ending.", 
     "description": ""
   },
      {
@@ -115,6 +162,7 @@
     "title": "little women",
     "subtitle": "2019",
     "watchdate": "april 1, 2020",
+    "quoted": "i'm so sick of it! but—i am so lonely.", 
     "description": "justice for jo and sign me up for the i-hate-amy-march club, thanks."
   },
       {
@@ -149,7 +197,7 @@
     "quoted": "all-stars @ LA",
     "description": "the single most important culinary event to happen to us this spring. good food, great chefs."
   },
-      {
+  {
     "media": "books",
     "title": "smart people should build things",
     "subtitle": "andrew yang",
