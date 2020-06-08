@@ -1,6 +1,14 @@
 [
   {
     "media": "films",
+    "title": "just mercy",
+    "subtitle": "2019",
+    "watchdate": "june 06, 2020",
+    "quoted": "in fact, there is a strength, a power even, in understanding brokenness, because embracing our brokenness creates a need and desire for mercy, and perhaps a corresponding need to show mercy. when you experience mercy, you learn things that are hard to learn otherwise.",
+    "description": ""
+  },
+  {
+    "media": "films",
     "title": "hercules",
     "subtitle": "1997",
     "watchdate": "may 29, 2020",
@@ -8,9 +16,9 @@
     "description": "the origin story of a beloved hero of myth."
   },
     {
-    "media": "films",
+    "media": "music",
     "title": "legally blonde: the musical",
-    "subtitle": "may 26, 2020",
+    "subtitle": "2008",
     "watchdate": "may 28, 2020",
     "quoted": "ohmigod! ohmigod you guys",
     "description": "bigger, better, blonder in musical form"
