@@ -18,7 +18,15 @@ body {
     margin-bottom: 0px;  
     overflow-x: hidden; 
 }
- 
+
+.credit {
+    color: #FF7585; 
+}
+
+.credit:after {
+    content: '';
+}
+
 a, aside a:after,.sort a:after {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;

@@ -58,9 +58,18 @@ a:hover {
 }
 
 @media screen and (max-width:600px) {
+/*
     .nav-archives {
         display: none; 
     }
+*/
+    .aside {
+        margin-right: none;
+    }
+    
+     .scrapbookentry {
+        margin: 1%; 
+    } 
 
 }
 
@@ -74,13 +83,14 @@ a:hover {
 aside {
     top: 0;
     left: 0;
+    width: 15%;
     height: 100%;
     position: fixed;
     background: #ffffff;
     text-align: right;
     padding-right: 30px;
     padding-left: 30px;
-    width: 200px; 
+    margin-right: 20px; 
 }
 
 h1 {
@@ -102,7 +112,7 @@ h3 {
     letter-spacing: 20px; 
 }
 
-aside .nav-archives li:after {
+aside .nav-archives a::after {
     content: '/';
     color: #666666;
     margin-left: 5px;
@@ -137,11 +147,10 @@ aside li {
     margin-top:3px;
 }
 
-aside li a.active:after {
+aside #filters a.active:after {
     margin-right:15px;
     color: #d86e95;
 }
-
 
 .nav-archives {
     margin-top: 40px; 
@@ -149,7 +158,7 @@ aside li a.active:after {
     border-bottom: 1px solid #eeeeee;
 }
 
-.nav-archives a:hover:after {
+nav a.acive:after {
     margin-right: 15px;
 }
 

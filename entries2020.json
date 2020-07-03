@@ -1,11 +1,91 @@
 [
+    {
+    "media": "films",
+    "title": "hamilton",
+    "subtitle": "2020",
+    "watchdate": "july 3, 2020",
+    "quoted": "",
+    "description": "we've been waiting for this one for so long."
+  },
+    {
+    "media": "books",
+    "title": "tweet cute",
+    "subtitle": "emma lord",
+    "watchdate": "june 20, 2020",
+    "quoted": "",
+    "description": "the twiter brand wars created a ya romance novel."
+  },
+    {
+    "media": "books",
+    "title": "minor feelings",
+    "subtitle": "cathy park hong",
+    "watchdate": "june 19, 2020 - june 21, 2020",
+    "quoted": "minor feelings: the racialized range of emotions that are negative, dysphoric, and therefore untelegenic, built from the sediments of everyday racial experience and the irritant of having one’s perception of reality constantly questioned or dismissed.",
+    "description": "a blistering collection of essays that make you confront being asian american (past and present) and challenges your comfort with your own identity. i wish i had read some of these essays sooner. they consist of half-formed thoughts i never knew i had, but were always there in observation, if i paid closer attention. it certainly warrants a future reread to see how these perceptions change now that i’ve found words for them. i wonder what pieces of our lived experiences qualifies itself to the feelings that rise up, crash to the surface, and subside once again; like waves coming up and receding from the shore. if our feelings contribute to our racial identity, then we need to recognize where that story starts and endings. as said: unlike the organizing principles of a bildungsroman, minor feelings are not generated from major change but from lack of change, in particular, structural racial and economic change. we've been caught in stasis for far too long, a lingering cognitive dissonance."
+  },
+    {
+    "media": "shows",
+    "title": "asian americans",
+    "subtitle": "2020",
+    "watchdate": "june 19, 2020 - june 23, 2020",
+    "quoted": "a viewer can trace a cautionary tale throughout “the asian americans”: the hazard of not knowing yourself or your history.",
+    "description": "what is our history? who does it belong to? how does our identity and place in this country continue to shape-shift, grow, and evolve?"
+  },
+    {
+    "media": "books",
+    "title": "interior chinatown",
+    "subtitle": "charles yu",
+    "watchdate": "june 18, 2020",
+    "quoted": "chinatown and indeed being chinese is and always has been, from the very beginning, a construction, a performance of features, gestures, cultures, and exoticism. an invention, a reinvention, a stylization. figuring out the show, finding our place in it, which was the background, as scenery, as nonspeaking players. to watch the mainstream, find out what kind of fiction they are telling themselves, finding a bit part in.",
+    "description": "i confess, i've had this same dream: to this dream of assimilation, a dream finally realized, a real american girl. and then this guilt that we yearn to be part of something that never wanted us. what and whom do we belong to, as a people, as a community? whose privilege is that?"
+  },
+    {
+    "media": "films",
+    "title": "fyre fraud",
+    "subtitle": "2019",
+    "watchdate": "june 12, 2020",
+    "quoted": "",
+    "description": "a generation told through seven scams, where this is the ultimate one."
+  },
   {
+    "media": "books",
+    "title": "trick mirror",
+    "subtitle": "jia tolentino",
+    "watchdate": "june 12, 2020 - june 14, 2020",
+    "quoted": "writing is either a way to shed my self-delusions or a way to develop them.",
+    "description": "i read this collection while grappling with my own self-delusions; wondering if reading about them would also help me write my way through them. the i in internet verbalizes the influence that internet has had on our lives, as children raised by the web. like we're in the middle of some sociological study and have finally started to gain sentience. how i have been molded by and susceptible to these structures, these institutions of the internet. pure heroines speaks to me as a longtime lover of coming of age stories on this instinct that is alluded to as the narrativization of ourselves. on weddings manufactured as a confectionary spectacle, its (relatively) recent history compared to its longstanding aura of tradition, the cultural psychosis. and also about hyper-optimized, consumerized feminism, packaged into barre classes and lululemon leggings and sweetgreen salads. also on a generation of scams, because for all the news headlines that talk about the major, catastrophic events that our generation has experienced, we've been beset with this mentality that success itself is forged from a certain falsehood, that the only way to get ahead is to embrace and own the illusion."
+  },
+  {
+    "media": "films",
+    "title": "13th",
+    "subtitle": "2016",
+    "watchdate": "june 12, 2020",
+    "quoted": "and the truth is we are living in this time, and we are tolerating it.",
+    "description": "here's what the history books decided to omit: it didn't end with an amendment."
+  },
+    {
+    "media": "shows",
+    "title": "when they see us",
+    "subtitle": "2019",
+    "watchdate": "june 09, 2020 - june 12, 2020",
+    "quoted": "raymond santana. antron mccray. yusef salaam. kevin richardson. korey wise.",
+    "description": "learn their story; learn that truth and justice are not the same side of the coin; learn that they were just kids and we as a people, as a system, failed them in every conceivable way."
+  },
+  {
+    "media": "shows",
+    "title": "love life",
+    "subtitle": "2020",
+    "watchdate": "june 08, 2020 - june 11, 2020",
+    "quoted": "finally, she had stopped wondering if she was worth loving and simply cracked herself open—simply cracked her whole life open.",
+    "description": "we fall in love so many times that i wonder when, and if, we'll ever stop. if we'll ever stop wanting to be loved and finally feel deserving of that love. worthy of the love we give to ourselves and seek from others. "
+  },
+ {
     "media": "music",
     "title": "hadestown",
     "subtitle": "2019",
     "watchdate": "june 08, 2020",
-    "quoted": "it's a sad song, but we sing it anyway.",
-    "description": ""
+    "quoted": "here's the thing, to know how it ends,  and still begin to sing it again, as if it might turn out this time",
+    "description": "there's this myth we tell. we know the ending, but we still tell it. recreate what it meant to us, hope the ending might be different this time. (it's always the same). this is a story about grief, and the subtext is tragedy, and it's the same story we tell and retell. we tell it until we're tired of telling it, about a boy and a girl and a trip to the underworld and one last look. but we do it anyway; let's do it again."
   },
   {
     "media": "films",
@@ -45,7 +125,7 @@
     "subtitle": "suzanne collins",
     "watchdate": "may 19, 2020 - may 20, 2020",
     "quoted": "nothing you can take from me was ever worth keeping.",
-    "description": "the rise of a tyrant, or the making of a teenage psychopath, both poorly writen; if you ever had any doubt we were in fact living the hunger games."
+    "description": "the rise of a tyrant, or the making of a teenage psychopath, both poorly written; if you ever had any doubt we were in fact living the hunger games."
   },
     {
     "media": "shows",
@@ -209,7 +289,7 @@
     "media": "shows",
     "title": "top chef",
     "subtitle": "season 17",
-    "watchdate": "mar 19, 2020 -",
+    "watchdate": "mar 19, 2020 - june 18, 2020",
     "quoted": "all-stars @ LA",
     "description": "the single most important culinary event to happen to us this spring. good food, great chefs."
   },
