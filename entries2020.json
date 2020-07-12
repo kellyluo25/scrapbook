@@ -1,11 +1,27 @@
 [
     {
+    "media": "shows",
+    "title": "looking for alaska",
+    "subtitle": "2019",
+    "watchdate": "july 9, 2020 - july 11, 2020",
+    "quoted": "people are so scared of stillness.",
+    "description": "revived the 2005 teen drama feels with a opener set to jose gonzalez's 'crosses' and a healthy dose of the killers and slowed-down covers of death cab."
+  },
+  {
+    "media": "books",
+    "title": "looking for alaska",
+    "subtitle": "john green",
+    "watchdate": "july 9, 2020 - july 11, 2020",
+    "quoted": "we are all going. the buddha said that suffering was caused by desire, we'd learned, and that the cessation of desire meant the cessation of suffering. when you stopped wishing things wouldn't fall apart, you'd stop suffering when they did.",
+    "description": "something about rain metaphors and teenagers who are seeking significance in an existence of near-triviality. full of rich interior lives revealed by messy hair, drinking problems, and a developing substance addiction"
+  },
+  {
     "media": "films",
     "title": "hamilton",
     "subtitle": "2020",
     "watchdate": "july 3, 2020",
-    "quoted": "",
-    "description": "we've been waiting for this one for so long."
+    "quoted": "why do you like you're running out of time",
+    "description": "something that will probably haunt me forever was never winning the ham4ham lottery for tickets to see the original cast on broadway—2016 in all of its hopefulness and eagerness is back again. it’s a weird full-circle thing that reminds me that the time and space between being a high school senior and recent college grad collapses. almost as if nothing (yet everything) has changed."
   },
     {
     "media": "books",
