@@ -383,7 +383,7 @@ angular.module("iso.directives")
 
       emitOption = function(option) {
         optionsStore.store(option);
-          // change scope.$emit to scope.%broadcast if opt-kind and isotope-container are registered as different scopes
+          // !!! change scope.$emit to scope.%broadcast if opt-kind and isotope-container are registered as different scopes
         return scope.$broadcast(optPublish, option);
       };
 
