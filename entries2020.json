@@ -1,6 +1,14 @@
 [
     {
     "media": "books",
+    "title": "[current bookshelf]",
+    "subtitle": "",
+    "watchdate": "ongoing",
+    "quoted": "",
+    "description": "brotopia by emily chang, the color of law by richard rothstein"
+  },
+  {
+    "media": "books",
     "title": "permanent record",
     "subtitle": "mary h.k. choi",
     "watchdate": "july 30, 2020 - july 31, 2020",
