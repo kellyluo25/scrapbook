@@ -1,12 +1,24 @@
+/* scrollbar */
+
 ::-webkit-scrollbar{
-    height:2px;
-    width:1px;
-    background:inherit;}
-::-webkit-scrollbar-thumb {
-    background:#eee;
+    height:10px;
+    width:5px;
+    background:inherit;
 }
+
+::-webkit-scrollbar-thumb {
+    background: #feafbf;
+}
+
+/* highlight */
+
 ::-webkit-scrollbar-track {
     background:transparent;
+}
+
+::selection {
+    background: #c4daf5;
+    color: #ffffff;
 }
 
 body {

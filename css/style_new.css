@@ -20,12 +20,14 @@
     background:#eee;
 }
 
+/* highlight */
+
 ::-webkit-scrollbar-track {
     background:transparent;
 }
 
 ::selection {
-    background: #feafbf;
+    background: #c4daf5;
     color: #ffffff;
 }
 
