@@ -185,6 +185,7 @@ section {
     margin-left: 320px;
     max-width: 70%;
 }
+
 /*
 section {
     margin: 60px;
@@ -265,9 +266,17 @@ section {
     top:5px;right:5px;content:' ♥ ';position:absolute;padding:2px 6px;background:#fafafa;color:#D490B0;border:1px solid #eee;border-radius:3px;
 }
 
-/* Start: Recommended Isotope styles */
+/* highlights */
+.highlights {
+    margin-left: -20px; 
+    list-style: none;
+}
 
-
+.highlights li:before {
+    content: '+';
+    font-weight: bold;
+    margin-right: 5px;
+}
 
 /**** Isotope Filtering ****/
 

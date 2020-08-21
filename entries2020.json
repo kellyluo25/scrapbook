@@ -1,11 +1,35 @@
 [
-    {
+  {
     "media": "books",
     "title": "[current bookshelf]",
     "subtitle": "",
     "watchdate": "ongoing",
     "quoted": "",
-    "description": "brotopia by emily chang, the color of law by richard rothstein, caste by isabel wilkerson"
+    "description": "/"
+  },
+    {
+    "media": "shows",
+    "title": "euphoria",
+    "subtitle": "season 01",
+    "watchdate": "aug 21, 2020",
+    "quoted": "and salt the earth behind you.",
+    "description": "the teenage years are a fever dream."
+  },
+ {
+    "media": "shows",
+    "title": "westworld",
+    "subtitle": "season 01",
+    "watchdate": "aug 1, 2020 - ",
+    "quoted": "these violent delights have violent ends",
+    "description": "what makes us human? what, truly, is the human condition? is conciousness that rarefied, elusive thing that keeps our ego in orbit?"
+  },
+  {
+    "media": "books",
+    "title": "brotopia",
+    "subtitle": "emily chang",
+    "watchdate": "july 15, 2020 - aug 19, 2020",
+    "quoted": "when they open the door, let's welcome them. and change the vallye—and the world—for them and for all.",
+    "description": "awareness of the women in tech who came before me and those who are going to part of the next generation. the future means listening to women, taking their stories seriously, and taking suggestions to catalyze real change. ideally, the future of tech is more balanced across all functions and realizes the pivotal problems that have plagued its inception. the future of the tech industry will not let history repeat itself."
   },
   {
     "media": "books",
@@ -15,7 +39,7 @@
     "quoted": "income differences are only a superificial way to understand why we remain segregated. racial policy in which government was inextricably involved created income disparities that ensure residential segregation, continuing to this day.",
     "description": "a question of affordable housing in america has become a primary proponent of de jure segregation in america. the shockwave aftereffects of which are still felt today and for generations to come."
   },
-      {
+  {
     "media": "films",
     "title": "crip camp",
     "subtitle": "2020",
@@ -94,6 +118,14 @@
     "watchdate": "july 9, 2020 - july 11, 2020",
     "quoted": "we are all going. the buddha said that suffering was caused by desire, we'd learned, and that the cessation of desire meant the cessation of suffering. when you stopped wishing things wouldn't fall apart, you'd stop suffering when they did.",
     "description": "something about rain metaphors and teenagers who are seeking significance in an existence of near-triviality. full of rich interior lives revealed by messy hair, drinking problems, and a developing substance addiction"
+  },
+    {
+    "media": "shows",
+    "title": "killing eve",
+    "subtitle": "season 03",
+    "watchdate": "july 4, 2020 - july 6, 2020",
+    "quoted": "are you leading or am i?",
+    "description": "that last scene on the tower bridge with the piano of saroise ronan's song from ryan gosling's lost river playing in the background; as they walk away from each other for what is supposed to be the last time, but can't help it but look back."
   },
   {
     "media": "films",
