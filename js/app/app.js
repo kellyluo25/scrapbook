@@ -1,3 +1,4 @@
+
 // 2019 
 var app2019 = angular.module('Scrapbook2019', ['ngRoute', 'iso.directives', 'iso.services']);
 
@@ -18,7 +19,7 @@ app2020.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
-    templateUrl : '/js/app/entry.html',
+    templateUrl : '/js/app/entry2020.html',
     controller  : 'ScrapbookController2020'
   })
 })
