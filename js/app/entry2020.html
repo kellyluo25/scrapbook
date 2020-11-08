@@ -1,6 +1,9 @@
-<div id="isotopeContainer" isotope-container="" ng-cloak class="ng-cloak row">
-<div isotope-item="" class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries" ng-init = "entry = entry.fields">
+<section class="scrapbookcontainer">
+
     
+<div id="isotopeContainer" isotope-container="" ng-cloak class="ng-cloak row">
+<div isotope-item="" class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+        
     <!-- header -->
     <div class="entry-info">
         <p class="entry-title"> {{ entry.title }} </p>
@@ -16,7 +19,6 @@
         </span>
         
         <p ng-show="entry.description">{{ entry.description }}</p>
-    
     </div>
     
     
@@ -44,3 +46,4 @@
     
 </div>
 </div>
+</section>
