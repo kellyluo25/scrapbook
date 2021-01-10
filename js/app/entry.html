@@ -1,8 +1,9 @@
-<section class="scrapbookcontainer">
-
+ 
+<div id="isotopeContainer" isotope-container="" ng-cloak class="ng-cloak row" class="" data-isotope='{"percentPosition": true}'>
     
-<div id="isotopeContainer" isotope-container="" ng-cloak class="ng-cloak row">
-<div isotope-item="" class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+<div isotope-item="scrapbookentry" class="scrapbookentry {{ entry.media }} col-sm-6 col-md-4 col-lg-4 mt-4 mb-2 ml-3" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+        
+    <div class="card p-3">
         
     <!-- header -->
     <div class="entry-info">
@@ -43,7 +44,9 @@
             
             </p>
     </div>
+        
+    </div>
     
 </div>
 </div>
-</section>
+</div>

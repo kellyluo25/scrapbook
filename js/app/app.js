@@ -19,7 +19,7 @@ app2020.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
-    templateUrl : '/js/app/entry.html',
+    templateUrl : '/js/app/2020/entry2020.html',
     controller  : 'ScrapbookController2020'
   })
 })
