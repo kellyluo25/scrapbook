@@ -2,15 +2,16 @@
 <html>
 <head>
  
-    <title>scrapbook 2019</title>
-
-    <!-- styles -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700italic|Playfair+Display:700i' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/style_new.css">
+    <title>scrapbook 2020</title>
+    
+    <!-- css styles -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/style_new.css">
+    <link rel="apple-touch-icon" href="/images/klcircle.png" />
     <link rel="favicon icon" href="/images/klcircle.png" />
-
+    
     <!-- Primary Meta Tags -->
-    <meta name="title" content="scrapbook 2019 — kelly luo">
+    <meta name="title" content="scrapbook 2020 — kelly luo">
     <meta name="description" content="hi, i'm kelly! these are the stories i'm paying attention to this year.">
     <meta name="keywords" content="kelly luo, twitter">
     
@@ -21,16 +22,17 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kellyluo.me/">
-    <meta property="og:title" content="scrapbook 2019 — kelly luo">
+    <meta property="og:title" content="scrapbook 2020 — kelly luo">
     <meta property="og:description" content="the stories i'm paying attention to this year.">
     <meta property="og:image" content="/images/scrapbook_header.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="og:url" content="https://kellyluo.me/">
-    <meta property="twitter:title" content="scrapbook 2019 — kelly luo">
+    <meta property="twitter:title" content="scrapbook 2020 — kelly luo">
     <meta property="twitter:description" content="the stories i'm paying attention to this year.">
     <meta property="twitter:image" content="/images/scrapbook_header.jpg">
+
 
     <!-- ga -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173560135-1"></script>
@@ -44,48 +46,42 @@
     
 </head>
  
-<body ng-app="Scrapbook2019">
- 
+<body ng-app="Scrapbook2020">
+
 <aside class="sideheader">
-    <h1>scrapbook 2019
-        <br />
+    <h1>scrapbook 2020
     </h1>
-    
+
     <a href="https://kellyluo.me/" class="credit">by kelly luo</a>
     
+    <nav>
      <ul class="nav-archives">
-        <li><a href="2014.html">2014</a></li> 
-        <li><a href="2015.html">2015</a></li> 
-        <li><a href="2016.html">2016</a></li>
-        <li><a href="2017.html">2017</a></li>
-        <li><a href="2018.html">2018</a></li>
-        <li style="margin-right:15px;"><a href="#">2019</a>
-        <li><a href="2020.html">2020</a></li>
+        <li><a href="/archives/2014.html">2014</a></li> 
+        <li><a href="/archives/2015.html">2015</a></li>
+        <li><a href="/archives/2016.html">2016</a></li>
+        <li><a href="/archives/2017.html">2017</a></li>
+        <li><a href="/archives/2018.html">2018</a></li>
+        <li><a href="/archives/2019.html">2019</a></li>
+        <li style="margin-right:15px;"><a>2020</a></li>
         <li><a href="/">2021</a></li>
-
     </ul>
-        
-    
-    <div class="nav sort">
-
+    </nav>
+   
+    <div class="nav-filters sort">
         <ul id="filters" opt-kind="" ok-key="filter">
-
             <li><a href="#" ok-sel=".scrapbookentry">all</a></li>
             <li><a href="#" ok-sel=".films">films</a></li>
             <li><a href="#" ok-sel=".shows">shows</a></li>
             <li><a href="#" ok-sel=".books">books</a></li>
-            <li><a href="#" ok-sel=".music">music</a></li>
-            
+            <li><a href="#" ok-sel=".audio">audio</a></li>
         </ul>
-        
     </div>
+    
 </aside>
 
-<!-- scrapbook --> 
-<section ng-view>
-    
-</section>
- 
+    <!-- scrapbook --> 
+    <ng-view></ng-view>
+
     <!-- javascript -->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/angular.min.js"></script>
@@ -93,9 +89,9 @@
     <script src="/js/isotope.js"></script>
     <script src="/js/angular-isotope.js"></script>
     <script src="/js/app/app.js"></script>
-    <script src="/js/app/2019/ScrapbookController2019.js"></script>
-    <script src="/js/app/2019/scrapbookentries2019.js"></script>
-    
+    <script src="/js/app/2020/ScrapbookController2020.js"></script>
+    <script src="/js/app/2020/scrapbookentries2020.js"></script>
+
 </body>
 
 </html>

@@ -19,7 +19,19 @@ app2020.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
-    templateUrl : '/js/app/entry2020.html',
+    templateUrl : '/js/app/entry.html',
     controller  : 'ScrapbookController2020'
+  })
+})
+
+// 2021
+var app2021 = angular.module('Scrapbook2021', ['ngRoute', 'iso.directives', 'iso.services']);
+
+app2021.config(function ($routeProvider, $locationProvider) {
+  $locationProvider.hashPrefix('');
+  $routeProvider
+  .when('/', {
+    templateUrl : '/js/app/entry.html',
+    controller  : 'ScrapbookController2021'
   })
 })
