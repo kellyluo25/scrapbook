@@ -39,15 +39,15 @@
             <b> &nbsp;  &#183; &nbsp;  </b> 
             
             <!-- alternative dates -->
-            <span ng-show="entry.watchdate_alt">
-                {{ entry.watchdate_alt }}
+            <span ng-show="entry.date_alt">
+                {{ entry.date_alt }}
             </span>
             
-            <span ng-if="!entry.watchdate_alt">
+            <span ng-if="!entry.date_alt">
                 
             <!-- start and end date-->
-            {{ entry.watchdate_start | date:'mediumDate' }} 
-            <span ng-show="entry.watchdate_end">- {{ entry.watchdate_end | date:'mediumDate' }} </span>
+            {{ entry.date_start | date:'mediumDate' }} 
+            <span ng-show="entry.date_end">- {{ entry.date_end | date:'mediumDate' }} </span>
                 
             </span>
             
