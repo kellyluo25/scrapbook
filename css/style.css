@@ -55,7 +55,7 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-size: 10px;
     font-weight: 300;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
  
 a, aside a:after,.sort a:after {
@@ -113,7 +113,7 @@ aside {
     
     aside h1 {
         color: #333333;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 5px;
         margin-bottom: 10px;
         margin-top: 20%;
@@ -236,7 +236,7 @@ section {
 }
 
 .entry-title {
-    font-size: 1.35em;
+    font-size: 1.4em;
     font-weight: 400;
     font-style: italic;
     font-weight: bold; 
@@ -269,7 +269,7 @@ section {
 
 .afterthought p {
     text-transform: lowercase; 
-    font-size: 1.15em;
+    font-size: 1.1em;
     margin: 10px 0 0 0; 
 }
 
