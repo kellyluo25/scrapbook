@@ -19,7 +19,7 @@ app2020.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
-    templateUrl : '/js/app/2020/entry2020.html',
+    templateUrl : '/js/app/entry.html',
     controller  : 'ScrapbookController2020'
   })
 })
@@ -35,3 +35,16 @@ app2021.config(function ($routeProvider, $locationProvider) {
     controller  : 'ScrapbookController2021'
   })
 })
+
+
+// TEST
+//var apptest = angular.module('Scrapbooktest', ['ngRoute', 'iso.directives', 'iso.services']);
+//
+//apptest.config(function ($routeProvider, $locationProvider) {
+//  $locationProvider.hashPrefix('');
+//  $routeProvider
+//  .when('/', {
+//    templateUrl : '/js/app/entry_test.html',
+//    controller  : 'ScrapbookControllertest'
+//  })
+//})

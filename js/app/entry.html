@@ -1,11 +1,18 @@
-<section class="scrapbookcontainer">
-
-<div id="isotopeContainer" isotope-container="" ng-cloak class="ng-cloak row">
-<div isotope-item="" class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+ 
+<div id="isotopeContainer" isotope-container class="row" iso-options='{"percentPosition": true}'>
     
+<!--
+    data-isotope='{"percentPosition": true, "masonry": {
+    "columnWidth": "scrapbookentry"}}'
+-->
+
+<div isotope-item="scrapbookentry" class="scrapbookentry {{ entry.media }} col-xs-6 col-sm-6 col-md-4 mt-2 mb-4" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+        
+    <div class="card p-3">
+        
     <!-- header -->
     <div class="entry-info">
-        <p class="entry-title"> {{ entry.title }} </p>
+        <h6 class="entry-title"> {{ entry.title }} </h6>
         <p class="entry-subtitle"> {{ entry.subtitle }} </p>
     </div>
     
@@ -14,7 +21,7 @@
         
         <span class="quoted" ng-show="entry.quoted"> 
             {{ entry.quoted }}
-            <p ng-show="entry.description">/</p>
+            <p ng-show="entry.description"><br/>/<br/><br/></p>
         </span>
         
         <p ng-show="entry.description">{{ entry.description }}</p>
@@ -24,8 +31,12 @@
     
     <!-- after -->
     <div class="afterthought" opt-kind="" ok-key="filter">
-        <p><a href="#" ok-sel=".{{ entry.media }}">
-            {{ entry.media }} </a> <b> &nbsp;  &#183; &nbsp;  </b> 
+        <p>
+            <span style="color: #222222">
+            {{ entry.media }}
+            </span>
+            
+            <b> &nbsp;  &#183; &nbsp;  </b> 
             
             <!-- alternative dates -->
             <span ng-show="entry.watchdate_alt">
@@ -45,4 +56,5 @@
         
     </div>
     
+</div>
 </div>

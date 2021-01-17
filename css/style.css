@@ -1,25 +1,53 @@
 /* scrollbar */
+}
 
-::-webkit-scrollbar{
-    height:10px;
-    width:3px;
+:root{
+  --yellow: #efd75b; 
+  --pink: #feafbf;
+  --cornflower: #c4daf5; 
+  --lilac: #aeafd6; 
+  --darkgray: #555555; 
+  --lightgray: #999999; 
+}
+
+::-webkit-scrollbar {
+    width: 10px;  }
+
+::-webkit-scrollbar-track {
+        background-color: var(--lightgrey);
+        border-left: 4px solid #eee;
+        border-right: 5px solid #eee;
+        border-top:0;
+    }
+
+::-webkit-scrollbar-thumb {
+        background-color: #feafbf; 
+        border-left: 4px solid #eee;
+        border-right: 5px solid #eee;
+        width: 2px; 
+        border-top:0;
+        border-bottom: 0;
+    }
+
+
+.scrapbookentry ::-webkit-scrollbar{
+    height:2px;
+    width:1px;
     background:inherit;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #feafbf;
+.scrapbookentry ::-webkit-scrollbar-thumb {
+    background:#eee;
 }
+
 
 /* highlight */
-
-::-webkit-scrollbar-track {
-    background:transparent;
-}
 
 ::selection {
     background: #c4daf5;
     color: #ffffff;
 }
+
 
 body {
     background: #f7f7f7;
@@ -27,11 +55,10 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-size: 10px;
     font-weight: 300;
-    margin-bottom: 0px;  
     overflow-x: hidden; 
 }
  
-aside a:after,.sort a:after {
+a, aside a:after,.sort a:after {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -39,13 +66,120 @@ aside a:after,.sort a:after {
 }
 
 a {
-    color: #999999; 
+    color: var(--lightgray); 
     text-decoration: none;
 }
- 
+
 a:hover {
     text-decoration: none;
-    color: #222222;
+    color: var(--darkgray);
+}
+
+aside {
+    background: #ffffff;
+    max-height: 100vh; 
+    padding: 0px 100px; 
+    text-align: right; 
+}
+
+/*breakpoints */
+
+/*large screen only*/
+@media screen and (min-width: 768px){
+    
+    aside a:hover:after, .sort a:hover:after {
+        margin-right: 15px;
+    }
+
+    aside li {
+        list-style:none;
+        margin-top:3px;
+    }
+
+    aside #filters a.active:after {
+        margin-right:15px;
+        color: #d86e95;
+    }
+
+    .nav-archives {
+        margin-top: 40px; 
+        padding-bottom: 25px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    nav a.acive:after {
+        margin-right: 15px;
+    }
+    
+    aside h1 {
+        color: #333333;
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+        margin-top: 20%;
+        font-weight: 300;
+    }
+    
+}
+
+/*small screen only */
+@media screen and (max-width: 768px){
+    aside {
+        text-align: center;
+    }
+    
+    aside a:hover:after, .sort a:hover:after {
+        margin-right: 0px;
+     }
+
+    aside #filters a.active:after {
+        margin-right:0px;
+        color: #d86e95;
+    }
+    
+    aside li {
+    display: inline-block;
+}
+    
+    .nav-archives {
+    padding-bottom: 10px;
+    border-bottom: 0px;
+}
+    
+/*    filters*/
+    .sort li {
+     margin-left: 10px;
+      margin-right: 10px; 
+    }
+    
+    .sort li a:after {
+    content: none;
+    }
+}; 
+       
+
+h1 {
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    width: 200px; 
+}
+
+h3 {
+    font-size: 100px; 
+    font-weight: normal;
+    margin-top: 0px; 
+    margin-bottom: 25px; 
+    text-align: right; 
+    color: #333333;
+    letter-spacing: 20px; 
+}
+
+aside .nav-archives a::after {
+    content: '/';
+    color: var(--darkgray);
+    margin-left: 5px;
+    font-weight: bold;
 }
 
 .credit {
@@ -56,85 +190,22 @@ a:hover {
     content: '';
 }
 
-aside {
-    top: 0;
-    left: 0;
-    width: 15%;
-    height: 100%;
-    position: fixed;
-    background: #ffffff;
-    text-align: right;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-right: 20px; 
+
+aside #filters a.active {
+    color: var(--darkgray);
+    font-weight: bold
 }
-
-h1 {
-    color: #333333;
-    font-size: 25px;
-    letter-spacing: 5px;
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 50%; 
-    font-weight: 300;
-}
-
-h3 {
-    font-family:'Playfair Display', 'Open Sans', sans-serif; 
-    font-size: 100px; 
-    font-weight: normal;
-    margin-top: 0px; 
-    margin-bottom: 25px; 
-    text-align: right; 
-    color: #333333;
-    letter-spacing: 20px; 
-}
-
-nav a {
-    display: block;
-    margin-top: 3px; }
-
-aside a:after {
-    content: '/';
-    color: #666666;
-    margin-left: 5px;
-    font-weight: bold;
-}
-
+ 
 .sort a:after {
     content: '+';
-    color: #666666;
+    color: var(--darkgray);
     margin-left: 5px;
     font-weight: bold;
-}
-
-aside a:hover:after, .sort a:hover:after {
-    margin-right: 15px;
-}
-
-aside li {
-    list-style:none;
-    margin-top:3px;
-}
-
-#nav-archives {
-    margin-top: 40px; 
-    padding-bottom: 25px;
-    border-bottom: 1px solid #eeeeee;
 }
 
 .sort ul {
     margin-left: 0px;
     padding-top: 20px;
-}
-
-.sort li a.selected {
-    
-}
-
-aside li a.selected:after {
-    margin-right:15px;
-    color: #d86e95;
 }
 
 #archive { 
@@ -149,28 +220,14 @@ aside li a.selected:after {
 }
 
 section {
-    margin-top: 60px;
-    margin-left: 320px;
-    max-width: 70%;
 }
-/*
 
-section {
-    margin: 60px;
-    left: 250px;
-    max-width: 70%; 
-    overflow-x: hidden; 
+.scrapbookentry p {
+    margin-bottom: 0px; 
 }
-*/
 
-.scrapbookentry {
-    background: #ffffff;
-    width: 200px; 
-    padding: 15px;
-    float: left;
-    display: block;
-    margin: 30px; 
-}
+
+/*entry css*/
 
 .entry-info {
     color:#444;
@@ -179,7 +236,7 @@ section {
 }
 
 .entry-title {
-    font-size: 13px;
+    font-size: 1.35em;
     font-weight: 400;
     font-style: italic;
     font-weight: bold; 
@@ -187,31 +244,33 @@ section {
 }
 
 .entry-subtitle {
-    font-size: 9px; 
+    font-size: 1em; 
     margin: 0px; 
-    margin-top: -10px; 
+    margin-top: -5px; 
     text-transform: uppercase; 
     letter-spacing: 1px;
 }
 
 .entry-desc {
-    max-height: 125px;
+    max-height: 130px;
     overflow-y: auto;
     padding-right: 5px;
     margin-top: 15px; 
-    margin-bottom: 10px; 
     line-height: 175%;
+    font-size: 1.1em;
 }
 
 
 .afterthought {
     text-align: center;
     border-top: 1px solid #eee;
+    margin-top: 1rem; 
 }
 
 .afterthought p {
     text-transform: lowercase; 
-    margin-bottom: 0px; 
+    font-size: 1.15em;
+    margin: 10px 0 0 0; 
 }
 
 .quoted {
@@ -229,14 +288,25 @@ section {
     font-weight: bold;
     margin-right: 5px;
 }
+/*
 
 .link a { border-right:1px solid #eee;margin-right:10px;padding-right:10px; font-size:9px;text-transform:uppercase;letter-spacing:.5px;margin-left:-10px;}
 .fave:after {
     top:5px;right:5px;content:' ♥ ';position:absolute;padding:2px 6px;background:#fafafa;color:#D490B0;border:1px solid #eee;border-radius:3px;
 }
+*/
 
-/* Start: Recommended Isotope styles */
+/* highlights */
+.highlights {
+    margin-left: -20px; 
+    list-style: none;
+}
 
+.highlights li:before {
+    content: '+';
+    font-weight: bold;
+    margin-right: 5px;
+}
 
 /**** Isotope Filtering ****/
 
@@ -259,6 +329,7 @@ section {
        -o-transition-duration: 0.8s;
           transition-duration: 0.8s;
 }
+/*
 
 .isotope {
   -webkit-transition-property: height, width;
@@ -267,6 +338,8 @@ section {
        -o-transition-property: height, width;
           transition-property: height, width;
 }
+*/
+/*
 
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
@@ -275,9 +348,14 @@ section {
        -o-transition-property:      -o-transform, opacity;
           transition-property:         transform, opacity;
 }
+*/
 
+#isotopeContainer {
+    display: flex;
+}
 /**** disabling Isotope CSS3 transitions ****/
 
+/*
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -287,11 +365,13 @@ section {
        -o-transition-duration: 0s;
           transition-duration: 0s;
 }
+*/
 
 /* End: Recommended Isotope styles */
 
 
-/* disable CSS transitions for containers with infinite scrolling*/
+/*
+ disable CSS transitions for containers with infinite scrolling
 .isotope.infinite-scrolling {
   -webkit-transition: none;
      -moz-transition: none;
@@ -299,3 +379,4 @@ section {
        -o-transition: none;
           transition: none;
 }
+*/
