@@ -6,7 +6,7 @@ app2019.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
-    templateUrl : '/js/app/2019/entry2019.html',
+    templateUrl : '/js/app/entry.html',
     controller  : 'ScrapbookController2019'
   })
 })
