@@ -1,12 +1,24 @@
-// 2018 
-var app2018 = angular.module('Scrapbook2018', ['ngRoute', 'iso.directives', 'iso.services']);
+// 2021
+var app2021 = angular.module('Scrapbook2021', ['ngRoute', 'iso.directives', 'iso.services']);
 
-app2018.config(function ($routeProvider, $locationProvider) {
+app2021.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
     templateUrl : '/js/app/entry.html',
-    controller  : 'scrapbook_controller2018'
+    controller  : 'scrapbook_controller2021'
+  })
+})
+
+// 2020 
+var app2020 = angular.module('Scrapbook2020', ['ngRoute', 'iso.directives', 'iso.services']);
+
+app2020.config(function ($routeProvider, $locationProvider) {
+  $locationProvider.hashPrefix('');
+  $routeProvider
+  .when('/', {
+    templateUrl : '/js/app/entry.html',
+    controller  : 'scrapbook_controller2020'
   })
 })
 
@@ -22,31 +34,17 @@ app2019.config(function ($routeProvider, $locationProvider) {
   })
 })
 
+// 2018 
+var app2018 = angular.module('Scrapbook2018', ['ngRoute', 'iso.directives', 'iso.services']);
 
-// 2020 
-var app2020 = angular.module('Scrapbook2020', ['ngRoute', 'iso.directives', 'iso.services']);
-
-app2020.config(function ($routeProvider, $locationProvider) {
+app2018.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   $routeProvider
   .when('/', {
     templateUrl : '/js/app/entry.html',
-    controller  : 'scrapbook_controller2020'
+    controller  : 'scrapbook_controller2018'
   })
 })
-
-// 2021
-var app2021 = angular.module('Scrapbook2021', ['ngRoute', 'iso.directives', 'iso.services']);
-
-app2021.config(function ($routeProvider, $locationProvider) {
-  $locationProvider.hashPrefix('');
-  $routeProvider
-  .when('/', {
-    templateUrl : '/js/app/entry.html',
-    controller  : 'scrapbook_controller2021'
-  })
-})
-
 
 // TEST
 //var apptest = angular.module('Scrapbooktest', ['ngRoute', 'iso.directives', 'iso.services']);
