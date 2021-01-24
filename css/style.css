@@ -128,6 +128,10 @@ aside {
     font-weight: bold;
     }
     
+    .listline {
+        margin-top: 15px;
+    }
+    
 }
 
 /*small screen only */
@@ -147,7 +151,6 @@ aside {
     aside li {
     display: inline-block;
 }
-    
     /*  archives */
     .nav-archives {
         padding-top: 25px; 
@@ -174,7 +177,7 @@ aside {
     content: none;
     }
     
-}; 
+};
        
 
 h1 {
@@ -227,6 +230,13 @@ aside #filters a.active {
     margin-left: 0px;
 }
 
+.listline {
+    font-style: italic;
+    border-bottom: 0.5px solid #eeeeee;
+    display: inline-block;
+}
+
+
 section {
 }
 
@@ -261,7 +271,7 @@ section {
 }
 
 .entry-desc {
-    max-height: 130px;
+    max-height: 120px;
     overflow-y: auto;
     padding-right: 5px;
     margin-top: 15px; 
@@ -299,7 +309,7 @@ section {
 }
 
 
-/* old archived sections */
+/* ARCHIVES | old archived sections */
 
 #archived-offset { 
     background: #ffffff;
@@ -326,10 +336,24 @@ section {
     letter-spacing: 20px; 
 }
 
+
 #archived-offset p {
     font-size: 1.2em;
-    width: 80%; 
+}
+
+/*about-page*/
+.archived-about p { 
     line-height: 1.8em; 
+    width: 80%; 
+}
+
+.archived-entries p {
+    margin-bottom: 0.5em; 
+}
+
+.archived-subheader{
+    width: 100px;
+    color: #ffffff; font-weight: bold; letter-spacing: 2px; background: #FD9B98; text-align: center; padding: 5px 20px; margin-top: 40px;
 }
 
 /*
@@ -351,6 +375,9 @@ section {
     font-weight: bold;
     margin-right: 5px;
 }
+
+
+/* isotope */
 
 /**** Isotope Filtering ****/
 
