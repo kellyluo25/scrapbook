@@ -49,6 +49,9 @@ body::-webkit-scrollbar-thumb {
     color: #ffffff;
 }
 
+html, body {
+    overflow-x: hidden !important;
+}
 
 body {
     background: #f7f7f7;
@@ -56,7 +59,6 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-size: 10px;
     font-weight: 300;
-    overflow-x: hidden !important;
 }
  
 a, aside a:after,.sort a:after {
