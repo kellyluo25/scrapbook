@@ -56,7 +56,7 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-size: 10px;
     font-weight: 300;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
  
 a, aside a:after,.sort a:after {
