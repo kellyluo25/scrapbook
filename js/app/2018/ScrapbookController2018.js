@@ -1,7 +1,15 @@
 // controller 
 
+//// entries is the json service
+//app2019.controller('ScrapbookController2019', ['$scope', 'entries',
+//    function($scope, entries) {
+//      entries.then(function(data) {
+//        $scope.entries = data;
+//      });  
+//}]);
+
 // entries is the json service
-app2021.controller('ScrapbookController2021', ['$scope', 'entries',
+app2018.controller('ScrapbookController2018', ['$scope', 'entries',
     function($scope, entries) {
       entries.then(function(data) {
         // set 'entries' as data from controller 

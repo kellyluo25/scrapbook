@@ -1,3 +1,14 @@
+// 2018 
+var app2018 = angular.module('Scrapbook2018', ['ngRoute', 'iso.directives', 'iso.services']);
+
+app2018.config(function ($routeProvider, $locationProvider) {
+  $locationProvider.hashPrefix('');
+  $routeProvider
+  .when('/', {
+    templateUrl : '/js/app/entry.html',
+    controller  : 'scrapbook_controller2018'
+  })
+})
 
 // 2019 
 var app2019 = angular.module('Scrapbook2019', ['ngRoute', 'iso.directives', 'iso.services']);
@@ -7,7 +18,7 @@ app2019.config(function ($routeProvider, $locationProvider) {
   $routeProvider
   .when('/', {
     templateUrl : '/js/app/entry.html',
-    controller  : 'ScrapbookController2019'
+    controller  : 'scrapbook_controller2019'
   })
 })
 
@@ -20,7 +31,7 @@ app2020.config(function ($routeProvider, $locationProvider) {
   $routeProvider
   .when('/', {
     templateUrl : '/js/app/entry.html',
-    controller  : 'ScrapbookController2020'
+    controller  : 'scrapbook_controller2020'
   })
 })
 
@@ -32,7 +43,7 @@ app2021.config(function ($routeProvider, $locationProvider) {
   $routeProvider
   .when('/', {
     templateUrl : '/js/app/entry.html',
-    controller  : 'ScrapbookController2021'
+    controller  : 'scrapbook_controller2021'
   })
 })
 
