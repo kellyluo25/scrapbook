@@ -10,7 +10,7 @@
     background: #feafbf;
 }
 
-.scrapbookentry ::-webkit-scrollbar{
+.scrapbookentry ::-webkit-scrollbar {
     height:2px;
     width:1px;
     background:inherit;
