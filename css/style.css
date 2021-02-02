@@ -86,7 +86,7 @@ aside {
 /*breakpoints */
 
 /*large screen only*/
-@media screen and (min-width: 770px){
+@media screen and (min-width: 800px){
     
     aside a:hover:after, .sort a:hover:after {
         margin-right: 15px;
@@ -135,7 +135,7 @@ aside {
 }
 
 /*small screen only */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
     html, body {
     overflow-x: hidden !important;
     }
@@ -444,4 +444,41 @@ section {
       -ms-transition: none;
        -o-transition: none;
           transition: none;
+}
+
+
+.longform-desc {
+    max-height: 130px;
+    overflow-y: auto;
+    padding-right: 5px;
+    margin-top: 10px; 
+    line-height: 175%;
+    font-size: 1.25em;
+    font-family: 'Martel', serif; 
+}
+
+/*longform*/
+.longform-info {
+    color:#444;
+    border-top: 1px solid #eee;
+    padding-top: 10px; 
+}
+
+
+
+.longform-title {
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0px; 
+    display: inline-block; 
+}
+
+.longform-title:after{
+    content:"";
+    width:100%;
+    display: block;
+    margin-top:-7px;
+    height:7px;
+    background-color: #f6f6f6; 
 }

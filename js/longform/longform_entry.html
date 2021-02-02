@@ -1,0 +1,38 @@
+ 
+<div id="isotopeContainer" isotope-container class="row" iso-options='{"percentPosition": true}'>
+    
+<!--
+    data-isotope='{"percentPosition": true, "masonry": {
+    "columnWidth": "scrapbookentry"}}'
+-->
+
+<div isotope-item="scrapbookentry" class="scrapbookentry col-xs-6 col-sm-6 col-lg-6 mt-2 mb-6" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+        
+    <div class="card p-3">
+        
+        
+    <!-- description -->
+    <div class="longform-desc">
+
+    <p>{{ entry.text }}</p>
+    </div>
+    
+    
+    <!-- after -->
+    <div class="afterthought" opt-kind="" ok-key="filter">
+        <p class="longform-title"> {{ entry.title | lowercase }} </p>
+        
+        <p>
+            
+<!--            <b> &nbsp;  &#183; &nbsp;  </b> -->
+
+            <!-- date-->
+            read: {{ entry.date | date:'mediumDate' }} 
+            
+            </p>
+    </div>
+        
+    </div>
+    
+</div>
+</div>

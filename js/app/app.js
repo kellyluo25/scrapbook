@@ -46,6 +46,7 @@ app2018.config(function ($routeProvider, $locationProvider) {
   })
 })
 
+
 // TEST
 //var apptest = angular.module('Scrapbooktest', ['ngRoute', 'iso.directives', 'iso.services']);
 //
