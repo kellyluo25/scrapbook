@@ -86,7 +86,7 @@ aside {
 /*breakpoints */
 
 /*large screen only*/
-@media screen and (min-width: 800px){
+@media screen and (min-width: 900px){
     
     aside a:hover:after, .sort a:hover:after {
         margin-right: 15px;
@@ -135,7 +135,7 @@ aside {
 }
 
 /*small screen only */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     html, body {
     overflow-x: hidden !important;
     }
