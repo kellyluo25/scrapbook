@@ -86,7 +86,7 @@ aside {
 /*breakpoints */
 
 /*large screen only*/
-@media screen and (min-width: 900px){
+@media screen and (min-width: 992px){
     
     aside a:hover:after, .sort a:hover:after {
         margin-right: 15px;
@@ -135,7 +135,7 @@ aside {
 }
 
 /*small screen only */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 992px){
     html, body {
     overflow-x: hidden !important;
     }
@@ -320,7 +320,7 @@ section {
 }
 
 /*small screen only */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     #archived-offset { 
         width: 85%; 
     }
