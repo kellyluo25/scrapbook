@@ -32,7 +32,7 @@ html::-webkit-scrollbar-thumb {
 
 .scrapbookentry ::-webkit-scrollbar {
     height:2px;
-    width:1px;
+    width:1.5px;
     background:inherit;
 }
 

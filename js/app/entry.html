@@ -6,9 +6,9 @@
     "columnWidth": "scrapbookentry"}}'
 -->
 
-<div isotope-item="scrapbookentry" class="scrapbookentry {{ entry.media }} col-xs-6 col-sm-6 col-lg-4 mt-2 mb-4" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+<div isotope-item="scrapbookentry" class="scrapbookentry {{ entry.media }} col-xs-6 col-sm-6 col-lg-4" ng-repeat="entry in entries" ng-init="entry = entry.fields">
         
-    <div class="card p-3">
+    <div class="card p-3 mt-2 mb-4 shadow-sm">
         
     <!-- header -->
     <div class="entry-info">
@@ -43,13 +43,17 @@
                 {{ entry.date_alt }}
             </span>
             
-            <span ng-if="!entry.date_alt">
-                
-            <!-- start and end date-->
-            {{ entry.date_start | date:'mediumDate' }} 
-            <span ng-show="entry.date_end">&ndash; {{ entry.date_end | date:'mediumDate' }} </span>
-                
+            <!-- end date only-->
+            <span ng-if="!entry.date_alt && (entry.date_start === entry.date_end)">     
+                {{ entry.date_end | date:'mediumDate' }}
             </span>
+            
+            <!-- start and end date-->
+            <span ng-if="!entry.date_alt && (entry.date_start != entry.date_end)">
+                {{ entry.date_start | date:'mediumDate' }} 
+                <span ng-show="entry.date_end">&ndash; {{ entry.date_end | date:'mediumDate' }}</span>
+            </span>
+
             
             </p>
     </div>
