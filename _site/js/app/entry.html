@@ -1,0 +1,64 @@
+ 
+<div id="isotopeContainer" isotope-container class="row" iso-options='{"percentPosition": true}'>
+    
+<!--
+    data-isotope='{"percentPosition": true, "masonry": {
+    "columnWidth": "scrapbookentry"}}'
+-->
+
+<div isotope-item="scrapbookentry" class="scrapbookentry {{ entry.media }} col-xs-6 col-sm-6 col-lg-4" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+        
+    <div class="card p-3 mt-2 mb-4 shadow-sm">
+        
+    <!-- header -->
+    <div class="entry-info">
+        <h6 class="entry-title"> {{ entry.title }} </h6>
+        <p class="entry-subtitle"> {{ entry.subtitle }} </p>
+    </div>
+    
+    <!-- description -->
+    <div class="entry-desc">
+        
+        <span class="quoted" ng-show="entry.quoted"> 
+            {{ entry.quoted }}
+            <p ng-show="entry.description"><br/>/<br/><br/></p>
+        </span>
+        
+        <p ng-show="entry.description">{{ entry.description }}</p>
+    </div>
+    
+    
+    
+    <!-- after -->
+    <div class="afterthought" opt-kind="" ok-key="filter">
+        <p>
+            <span style="color: #222222">
+            {{ entry.media }}
+            </span>
+            
+            <b> &nbsp;  &#183; &nbsp;  </b> 
+            
+            <!-- alternative dates -->
+            <span ng-show="entry.date_alt">
+                {{ entry.date_alt }}
+            </span>
+            
+            <!-- end date only-->
+            <span ng-if="!entry.date_alt && (entry.date_start === entry.date_end)">     
+                {{ entry.date_end | date:'mediumDate' }}
+            </span>
+            
+            <!-- start and end date-->
+            <span ng-if="!entry.date_alt && (entry.date_start != entry.date_end)">
+                {{ entry.date_start | date:'mediumDate' }} 
+                <span ng-show="entry.date_end">&ndash; {{ entry.date_end | date:'mediumDate' }}</span>
+            </span>
+
+            
+            </p>
+    </div>
+        
+    </div>
+    
+</div>
+</div>

@@ -1,16 +1,4 @@
 // 2021
-var app2022 = angular.module('Scrapbook2022', ['ngRoute', 'iso.directives', 'iso.services']);
-
-app2022.config(function ($routeProvider, $locationProvider) {
-  $locationProvider.hashPrefix('');
-  $routeProvider
-  .when('/', {
-    templateUrl : '/js/app/entry.html',
-    controller  : 'scrapbook_controller2022'
-  })
-})
-
-// 2021
 var app2021 = angular.module('Scrapbook2021', ['ngRoute', 'iso.directives', 'iso.services']);
 
 app2021.config(function ($routeProvider, $locationProvider) {

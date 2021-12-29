@@ -2,7 +2,7 @@
 <html>
 <head>
  
-    <title>scrapbook 2014</title>
+    <title>scrapbook 2019</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
 
@@ -17,7 +17,7 @@
     <link rel="favicon icon" href="/images/klcircle.png" />
     
     <!-- Primary Meta Tags -->
-    <meta name="title" content="scrapbook 2014 — kelly luo">
+    <meta name="title" content="scrapbook 2019 — kelly luo">
     <meta name="description" content="hi, i'm kelly! these are the stories i'm paying attention to this year.">
     <meta name="keywords" content="kelly luo, twitter">
     
@@ -28,14 +28,14 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kellyluo.me/">
-    <meta property="og:title" content="scrapbook 2020 — kelly luo">
+    <meta property="og:title" content="scrapbook 2019 — kelly luo">
     <meta property="og:description" content="the stories i'm paying attention to this year.">
     <meta property="og:image" content="/images/scrapbook_header.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="og:url" content="https://kellyluo.me/">
-    <meta property="twitter:title" content="scrapbook 2020 — kelly luo">
+    <meta property="twitter:title" content="scrapbook 2019 — kelly luo">
     <meta property="twitter:description" content="the stories i'm paying attention to this year.">
     <meta property="twitter:image" content="/images/scrapbook_header.jpg">
 
@@ -53,86 +53,48 @@
 
 </head>
  
-<body>
+<body ng-app="Scrapbook2019">
 
-<div class="row flex-column flex-md-row">
+<div class="row min-vh-100 flex-column flex-md-row">
     
-<aside class="col-12 col-md-3 sticky-md-top fixed-left h-100">
+<aside class="col-12 col-md-3 sticky-md-top fixed-left">
     <div class="p-4 sideheader align-middle">
-    <h1>scrapbook 2014</h1>
+    <h1>scrapbook 2019</h1>
 
     <a href="https://kellyluo.me/" class="credit">by kelly luo</a>
     
-<!-- <nav class="d-none d-md-block d-lg-block">-->
-    <nav id="archives">
-     <ul class="nav-archives list-inline">
-        <li><a href="/archives/about.html">about</a></li> 
+    <nav class="d-none d-md-block d-lg-block">
+     <ul class="nav-archives">
+        <li><a href="/archives/about.html  ">about</a></li> 
         <li class="listline">archives</li>
-        <li style="margin-right:15px;"><a href="/archives/2014">2014</a></li> 
+        <li><a href="/archives/2014">2014</a></li> 
         <li><a href="/archives/2015">2015</a></li>
         <li><a href="/archives/2016">2016</a></li>
         <li><a href="/archives/2017">2017</a></li>
         <li><a href="/archives/2018">2018</a></li>
-        <li><a href="/archives/2019">2019</a></li>
+        <li style="margin-right:15px;"><a href="#">2019</a></li>
         <li><a href="/archives/2020">2020</a></li>
-        <li><a href="/archives/2021">2021</a></li>
-        <li><a href="/">2022</a></li>
+        <li><a href="/">2021</a></li>
     </ul>
     </nav>
-
+   
+    <div class="nav-filters sort">
+        <ul id="filters" class="list-inline" opt-kind="" ok-key="filter">
+            <li><a href="#" ok-sel=".scrapbookentry">all</a></li>
+            <li><a href="#" ok-sel=".films">films</a></li>
+            <li><a href="#" ok-sel=".shows">shows</a></li>
+            <li><a href="#" ok-sel=".books">books</a></li>
+            <li><a href="#" ok-sel=".audio">audio</a></li>
+        </ul>
+    </div>
 </div>
 </aside>
 
 <main class="col">
-    <div class="container">
-    <div id="archived-offset" class="position-absolute end-0 archived-entries">
-        <h2 class="end-0"><em>2014</em></h2>
-        
-<p class="archived-subheader">music</p>
-<div style="margin-left: 25px;">
-   <p>the fault in our stars &mdash; misc. artists (june - july)</p>
-    <p>bon iver, bon iver &mdash; bon iver (august - september)</p>
-    <p>1989 &mdash; taylor swift (october - november)</p>
-</div>
-
-<p class="archived-subheader">books</p>
-<div style="margin-left: 25px;">
-     <p>better off friends (june 18)</p>
-    <p>city of heavenly fire (june 24)</p>
-    <p>on the fence (june 26)</p>
-    <p>summer state of mind (july 21)</p>
-    <p>landline (august 6)</p>
-    <p>isla and the happily ever after (august 17)</p>
-    <p>kiss the sky (november 4)</p>
-    <p>the retribution of mara dyer (november 4)</p>
-    <p>the darkest minds (december 23)</p>
-    <p>never fade (december 24)</p>
-    <p>in the afterlight (december 25)</p>
-</div>
-
-<p class="archived-subheader">films</p>
-<div style="margin-left: 25px;">
-    <p>the to-do list (june 7)</p>
-    <p>vampire academy: bloodlines (june 8)</p>
-    <p>the fault in our stars (june 31)</p>
-    <p>adult world (july 22)</p>
-    <p>after the dark (august 3)</p>
-    <p>begin again (december 26)</p>
-</div>
-
-<p class="archived-subheader">shows</p>
-<div style="margin-left: 25px;">
-    <p>teen wolf (hiatus)</p>
-    <p>suits (hiatus)</p>
-    <p>nothing much to do (august - september)</p>
-    <p>game of thrones (season 1/2/3/ongoing)</p>
-    <p>how to get away with murder (hiatus)&nbsp;</p>
-    <p>gossip girl (rewatch)</p>
-</div>
-        
-</div>
-</div>
-        
+    <div class="container py-5 px-5">
+    <!-- scrapbook --> 
+    <ng-view></ng-view>
+    </div>
 </main>
 
 </div>

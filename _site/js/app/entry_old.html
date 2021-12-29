@@ -1,0 +1,32 @@
+<div id="isotopeContainer" isotope-container="" ng-cloak class="ng-cloak row">
+<div isotope-item="" class="scrapbookentry {{ entry.media }}" ng-repeat="entry in entries" >
+    
+    <!-- header -->
+    <div class="entry-info">
+        <p class="entry-title"> {{ entry.title }} </p>
+        <p class="entry-subtitle"> {{ entry.subtitle }} </p>
+    </div>
+    
+    <!-- description -->
+    <div class="entry-desc">
+        
+        <span class="quoted" ng-show="entry.quoted"> 
+            {{ entry.quoted }}
+            <p ng-show="entry.description">/</p>
+        </span>
+        
+        {{ entry.description }}
+        
+    
+    </div>
+    
+    
+    
+    <!-- after -->
+    <div class="afterthought" opt-kind="" ok-key="filter">
+        <p><a href="#" ok-sel=".{{ entry.media }}">
+            {{ entry.media }} </a> | {{ entry.watchdate }}</p>
+    </div>
+    
+</div>
+</div>

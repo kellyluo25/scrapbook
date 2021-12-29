@@ -15,7 +15,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-        background: var(--lightgray);
+        background: var(--lightgrey);
         border-left: 4px solid #eee;
         border-right: 5px solid #eee;
         border-top:0;
@@ -447,36 +447,29 @@ section {
 }
 
 
-timeline
+/*timeline*/
 
 /* timeline */
-#timeline {
-    position: relative;
-}
-
-.timeline-entry {
-    font-size: 1.6em;
-}
-#timeline::before {
+.timeline {
+  position: relative; }
+  .timeline:before {
     content: '';
     position: absolute;
     top: 0;
     left: -2px;
     height: 100%;
     width: 4px;
-    background: #efd75b; }
-
+    background: #f5f5f5; }
 .timeline:after {
     content: "";
     display: table;
     clear: both; }
-
-.timeline .timeline-entry {
+.timeline .timeline-title {
   position: relative;
   margin: 2em auto 1em; }
-  .timeline .timeline-entry .timeline-year {
+  .timeline .timeline-title .timeline-year {
     margin-left: 1em; }
-    #timeline .timeline-entry .timeline-year:before {
+    .timeline .timeline-title .timeline-year:before {
       content: " ";
       position: absolute;
       left: 0;
@@ -490,20 +483,12 @@ timeline
 .timeline ul {
   list-style: none; }
   .timeline ul li {
-    margin: 1.75em auto; }
+    margin: 1em auto; }
 
 .timeline-datestamp {
    width:60px;
    float:left;
    text-transform: lowercase;
-   margin-right: 3em; 
-   color: #757575; 
-}
-
-.timeline-title {
-    color: #555555;
-}
-
-.timeline-subtitle {
-    color: #999999;
+   margin-right: 10px; 
+   color: #999999; 
 }

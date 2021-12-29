@@ -1,0 +1,34 @@
+
+  <div class="timeline" ng-repeat="entry in entries" ng-init="entry = entry.fields">
+
+    <div class="timeline-title">
+      <h4 class="timeline-year"> 2021 </h4>
+    </div>
+
+    <ul>
+    <li>
+      <div class="timeline-datestamp">
+          <!-- alternative dates -->
+            <span ng-show="entry.date_alt">
+                {{ entry.date_alt }}
+            </span>
+            
+            <!-- end date only-->
+            <span ng-if="!entry.date_alt && (entry.date_start === entry.date_end)">     
+                {{ entry.date_end | date:'mediumDate' }}
+            </span>
+            
+            <!-- start and end date-->
+            <span ng-if="!entry.date_alt && (entry.date_start != entry.date_end)">
+                {{ entry.date_start | date:'mediumDate' }} 
+                <span ng-show="entry.date_end">&ndash; {{ entry.date_end | date:'mediumDate' }}</span>
+            </span> 
+        </div>
+        
+        <a class="timeline-url">{{ entry.title }}</a>
+    
+    </li>
+    </ul>
+
+  </div>
+
